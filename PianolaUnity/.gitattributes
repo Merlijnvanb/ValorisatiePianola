@@ -1,0 +1,94 @@
+# Unity project attributes.
+#
+# Line endings: Unity YAML and C# are text; normalise to LF in the repo so
+# the same files don't churn between Linux/Windows editors.
+* text=auto
+
+*.cs                text diff=csharp
+*.shader            text
+*.hlsl              text
+*.cginc             text
+*.uxml              text
+*.uss               text
+*.json              text
+*.md                text
+*.asmdef            text
+*.inputactions      text
+
+# Unity YAML assets. `merge=unityyamlmerge` hands conflicts to Unity's
+# Smart Merge tool instead of git's line-based merge, which mangles them.
+# Requires the one-time git config in the footer of this file.
+*.unity             text merge=unityyamlmerge eol=lf
+*.prefab            text merge=unityyamlmerge eol=lf
+*.asset             text merge=unityyamlmerge eol=lf
+*.mat               text merge=unityyamlmerge eol=lf
+*.anim              text merge=unityyamlmerge eol=lf
+*.controller        text merge=unityyamlmerge eol=lf
+*.overrideController text merge=unityyamlmerge eol=lf
+*.physicMaterial    text merge=unityyamlmerge eol=lf
+*.physicsMaterial2D text merge=unityyamlmerge eol=lf
+*.playable          text merge=unityyamlmerge eol=lf
+*.mask              text merge=unityyamlmerge eol=lf
+*.brush             text merge=unityyamlmerge eol=lf
+*.flare             text merge=unityyamlmerge eol=lf
+*.fontsettings      text merge=unityyamlmerge eol=lf
+*.guiskin           text merge=unityyamlmerge eol=lf
+*.giparams          text merge=unityyamlmerge eol=lf
+*.meta              text merge=unityyamlmerge eol=lf
+*.mixer             text merge=unityyamlmerge eol=lf
+*.terrainlayer      text merge=unityyamlmerge eol=lf
+
+# ---------------------------------------------------------------------------
+# Git LFS — ACTIVE. Large binaries are stored out-of-band so they don't
+# bloat the repo permanently. Only files added AFTER these rules land are
+# captured; anything already in history needs `git lfs migrate import`.
+#
+# Audio (the bulk of a pianola project)
+*.wav               filter=lfs diff=lfs merge=lfs -text
+*.mp3               filter=lfs diff=lfs merge=lfs -text
+*.ogg               filter=lfs diff=lfs merge=lfs -text
+*.aif               filter=lfs diff=lfs merge=lfs -text
+*.aiff              filter=lfs diff=lfs merge=lfs -text
+*.flac              filter=lfs diff=lfs merge=lfs -text
+
+# Models / source art
+*.fbx               filter=lfs diff=lfs merge=lfs -text
+*.obj               filter=lfs diff=lfs merge=lfs -text
+*.blend             filter=lfs diff=lfs merge=lfs -text
+*.psd               filter=lfs diff=lfs merge=lfs -text
+*.tga               filter=lfs diff=lfs merge=lfs -text
+*.tif               filter=lfs diff=lfs merge=lfs -text
+*.exr               filter=lfs diff=lfs merge=lfs -text
+*.hdr               filter=lfs diff=lfs merge=lfs -text
+
+# Video / packages
+*.mp4               filter=lfs diff=lfs merge=lfs -text
+*.mov               filter=lfs diff=lfs merge=lfs -text
+*.unitypackage      filter=lfs diff=lfs merge=lfs -text
+# ---------------------------------------------------------------------------
+
+# Plain binaries — deliberately NOT in LFS. Small enough that ordinary git
+# handles them fine, and keeping them out preserves LFS quota/bandwidth.
+# MIDI in particular is tiny and central to this project.
+*.mid               binary
+*.midi              binary
+*.png               binary
+*.jpg               binary
+*.jpeg              binary
+*.gif               binary
+*.ttf               binary
+*.otf               binary
+*.dll               binary
+*.so                binary
+*.a                 binary
+
+# ---------------------------------------------------------------------------
+# unityyamlmerge one-time setup (per machine, not stored in the repo):
+#
+#   git config --global merge.unityyamlmerge.name "Unity SmartMerge"
+#   git config --global merge.unityyamlmerge.driver \
+#     '/path/to/Editor/Data/Tools/UnityYAMLMerge merge -p %O %A %B %A'
+#
+# Without it git falls back to the normal merge for these files — the
+# attribute is harmless, just inactive.
+# ---------------------------------------------------------------------------

@@ -1,0 +1,15 @@
+# Obsidian local workspace state — churns constantly, causes noisy diffs
+# and merge conflicts when syncing the vault across machines.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Plugin/appearance config below .obsidian/ IS tracked on purpose,
+# so the vault setup follows the repo.
+
+# Obsidian's own trash
+.trash/
+
+# OS cruft
+.DS_Store
+Thumbs.db
