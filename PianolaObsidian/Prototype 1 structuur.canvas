@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"f15b15685bcdb449","type":"text","text":"Hub/main screen","x":-246,"y":-209,"width":250,"height":60},
+		{"id":"b9d7f52dd89478bf","type":"text","text":"rollen kast","x":172,"y":-208,"width":250,"height":60},
+		{"id":"0cd80dc2918b9a3a","type":"text","text":"Pianola","x":168,"y":115,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"a393941420732034","fromNode":"f15b15685bcdb449","fromSide":"right","toNode":"b9d7f52dd89478bf","toSide":"left"},
+		{"id":"12730157b120c760","fromNode":"b9d7f52dd89478bf","fromSide":"bottom","toNode":"0cd80dc2918b9a3a","toSide":"top","label":"rol uitkiezen"},
+		{"id":"2d8e0dd7affa0d1c","fromNode":"f15b15685bcdb449","fromSide":"bottom","toNode":"0cd80dc2918b9a3a","toSide":"left"}
+	]
+}
