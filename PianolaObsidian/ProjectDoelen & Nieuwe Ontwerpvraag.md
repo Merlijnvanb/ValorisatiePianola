@@ -1,4 +1,4 @@
-Ontwerpvraag: Hoe kan ik een digitale pianola-installatie maken die de interne werking ervan uitlegt zonder tekstblokken te gebruiken?
+Ontwerpvraag: Hoe kan ik een digitale pianola-installatie maken die de gebruiker inzicht geeft in haar interne werking, zonder tekstblokken te gebruiken?
 
 
 **Project Valorisatie:**
