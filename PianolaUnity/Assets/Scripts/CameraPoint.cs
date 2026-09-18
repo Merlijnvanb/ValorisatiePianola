@@ -1,13 +1,14 @@
 using UnityEngine;
 using Unity.Mathematics;
 
+[ExecuteInEditMode]
 public class CameraPoint : MonoBehaviour
 {
     [System.Serializable]
     public struct Neighbor
     {
-        public CameraPoint point;
-        public int2 vector;
+        public CameraPoint Point;
+        public int2 Transition;
     }
     
     public Transform Target;
@@ -18,9 +19,9 @@ public class CameraPoint : MonoBehaviour
         return Target.position - transform.position;
     }
 
-    void OnDrawGizmosSelected()
+    void OnDrawGizmos()
     {
         Gizmos.DrawLine(transform.position, Target.position);
-        Gizmos.DrawSphere(Target.position, 0.5f);
+        Gizmos.DrawSphere(Target.position, 0.1f);
     }
 }

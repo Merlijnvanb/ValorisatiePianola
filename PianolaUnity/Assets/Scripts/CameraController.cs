@@ -6,24 +6,46 @@ using PrimeTween;
 public class CameraController : MonoBehaviour
 {
     public float TweenDuration = .75f;
+    public float TransitionThreshold = .95f;
     public CameraPoint[] Points;
 
     private CameraPoint currentPoint;
     private Sequence currentTweens;
-    private Camera mainCam;
+    private Camera mainCam { get => GetCamera(); }
+    private Camera _mainCam;
 
     void Start()
     {
-        mainCam = Camera.main;
-        
         currentPoint = Points[0];
-        mainCam.transform.SetPositionAndRotation(Points[0].transform.position, Points[0].transform.rotation);
+        
+        var startPos = Points[0].transform.position;
+        var startRot = Quaternion.LookRotation(Points[0].GetViewVector());
+        mainCam.transform.SetPositionAndRotation(startPos, startRot);
     }
 
     void Update()
     {
-        if (!mainCam)
-            return;
+        var rawMousePos = Input.mousePosition;
+        var relativeMousePos = new Vector2((rawMousePos.x / Screen.width - .5f) * 2f, (rawMousePos.y / Screen.height - .5f) * 2f);
+        Debug.Log(relativeMousePos);
+
+        var transition = new int2();
+        
+        if (relativeMousePos.x > TransitionThreshold)
+            transition.x = 1;
+        else if (relativeMousePos.x < -TransitionThreshold)
+            transition.x = -1;
+        
+        if (relativeMousePos.y > TransitionThreshold)
+            transition.y = 1;
+        else if (relativeMousePos.y < -TransitionThreshold)
+            transition.y = -1;
+
+        foreach (var neighbor in currentPoint.Neighbors)
+        {
+            if (transition.Equals(neighbor.Transition))
+                ChangePoint(neighbor.Point);
+        }
     }
 
     private bool ChangePoint(CameraPoint point)
@@ -38,12 +60,20 @@ public class CameraController : MonoBehaviour
         var endRot = Quaternion.LookRotation(point.GetViewVector());
 
         currentTweens = Sequence.Create()
-            .Group(Tween.Position(mainCam.transform, startPos, endPos, TweenDuration, Ease.InOutCubic))
-            .Group(Tween.Rotation(mainCam.transform, startRot, endRot, TweenDuration, Ease.InOutCubic));
+            .Group(Tween.Position(mainCam.transform, startPos, endPos, TweenDuration, Ease.OutExpo))
+            .Group(Tween.Rotation(mainCam.transform, startRot, endRot, TweenDuration, Ease.OutExpo));
         
         currentPoint = point;
 
         return true;
+    }
+
+    private Camera GetCamera()
+    {
+        if (!_mainCam)
+            _mainCam = Camera.main;
+
+        return _mainCam;
     }
     
     // private IEnumerator LerpTransform(Transform oldT, Transform newT)

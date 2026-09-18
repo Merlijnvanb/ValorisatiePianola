@@ -76,4 +76,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7e36512cc0be3270988d9da1197d92b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraPoint
-  target: {fileID: 7353314233347507120}
+  Target: {fileID: 7353314233347507120}
+  Neighbors: []
