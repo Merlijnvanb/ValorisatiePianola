@@ -92,18 +92,24 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Cutoff_Range: 15.32
+    - _Cutoff_Range: 10
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+    - _Edge1: 9.5
+    - _Edge2: 12.09
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _Layer_1_Intensity: 2
+    - _Layer_1_Scale: 70.4
+    - _Layer_2_Intensity: -3.4
+    - _Layer_2_Scale: 19.7
     - _Metallic: 0
-    - _Noise_Intensity: 6
-    - _Noise_Scale: 59.91
+    - _Noise_Intensity: 3.05
+    - _Noise_Scale: 66.97
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
@@ -120,8 +126,10 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CloseColor: {r: 0.10980392, g: 0.08235294, b: 0.06666667, a: 1}
+    - _Color: {r: 0.09433961, g: 0.058257204, b: 0.034264855, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FarColor: {r: 0.4433962, g: 0.4261534, b: 0.38692594, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
