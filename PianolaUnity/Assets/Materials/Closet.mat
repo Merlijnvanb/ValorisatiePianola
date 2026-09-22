@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Floor
+  m_Name: Closet
   m_Shader: {fileID: -6465566751694194690, guid: c7b130d1392d5ee459162502f5421e7c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -92,22 +92,22 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Cutoff_Range: 16.87
+    - _Cutoff_Range: 18.78
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _Edge1: 12.52
     - _Edge2: 12.09
-    - _EdgeSize: 2
+    - _EdgeSize: 0.8
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Layer_1_Intensity: 2.89
+    - _Layer_1_Intensity: 1.42
     - _Layer_1_Scale: 0.53
-    - _Layer_2_Intensity: -10.32
-    - _Layer_2_Scale: 0.45
+    - _Layer_2_Intensity: -1.91
+    - _Layer_2_Scale: 0.56
     - _Metallic: 0
     - _Noise_Intensity: 3.05
     - _Noise_Scale: 66.97
@@ -126,7 +126,7 @@ Material:
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
-    - _Albedo: {r: 0.039215688, g: 0.031666003, b: 0.023529412, a: 1}
+    - _Albedo: {r: 0.16981131, g: 0.14191946, b: 0.117746525, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CloseColor: {r: 0.03773582, g: 0.020775327, b: 0.014061932, a: 1}
     - _Color: {r: 0.09433961, g: 0.058257204, b: 0.034264855, a: 1}
