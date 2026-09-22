@@ -87,8 +87,36 @@
 #
 #   git config --global merge.unityyamlmerge.name "Unity SmartMerge"
 #   git config --global merge.unityyamlmerge.driver \
-#     '/path/to/Editor/Data/Tools/UnityYAMLMerge merge -p %O %A %B %A'
+#     '/path/to/Editor/Data/Tools/UnityYAMLMerge merge -h -p --force --fallback none %O %B %A %A'
 #
-# Without it git falls back to the normal merge for these files — the
-# attribute is harmless, just inactive.
+# --force is NOT optional. UnityYAMLMerge picks its parser by file extension,
+# but git hands the driver temp files named merge_file_XXXXXX with no
+# extension. Without --force it bails with "Don't know how to merge
+# merge_file_XXXXXX files", and the working file is left holding only our
+# side with no conflict markers — the other machine's edit vanishes from the
+# file (it survives in the index, but not visibly).
+#
+# Argument order: UnityYAMLMerge takes <base> <left> <right> [dest], and its
+# usage text defines left as theirs, right as mine — so %O %B %A %A, not
+# %O %A %B %A. Verified: the two orders give different results on a
+# same-field conflict.
+#   -h               headless; never pop a dialog from a CLI merge
+#   --force          see above
+#   --fallback none  don't launch a GUI tool from mergespecfile.txt
+#
+# Edits to DIFFERENT fields of the same object merge cleanly, which is the
+# whole point. On a genuine same-field conflict, note that this driver does
+# NOT write conflict markers: git marks the path UU and refuses to commit,
+# but the file on disk silently contains one side only. Never `git add` a
+# conflicted scene because it "looks fine". Both sides are intact in the
+# index:
+#   git checkout --ours   -- <file>   # keep this machine's version
+#   git checkout --theirs -- <file>   # keep the incoming version
+#   git show :2:<file>                # ours, to inspect
+#   git show :3:<file>                # theirs, to inspect
+# SmartMerge also prints which properties clashed (Left/Right ...) during the
+# merge — that output is the best record of what actually conflicted.
+#
+# Without the config git falls back to the normal line-based merge for these
+# files — the attribute is harmless, just inactive.
 # ---------------------------------------------------------------------------
