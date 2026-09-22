@@ -7,7 +7,7 @@ public class CameraController : MonoBehaviour
 {
     public float TweenDuration = .75f;
     public float TransitionThreshold = .95f;
-    public CameraPoint[] Points;
+    public CameraPoint StartPoint;
 
     private CameraPoint currentPoint;
     private Sequence currentTweens;
@@ -16,10 +16,10 @@ public class CameraController : MonoBehaviour
 
     void Start()
     {
-        currentPoint = Points[0];
+        currentPoint = StartPoint;
         
-        var startPos = Points[0].transform.position;
-        var startRot = Quaternion.LookRotation(Points[0].GetViewVector());
+        var startPos = StartPoint.transform.position;
+        var startRot = Quaternion.LookRotation(StartPoint.GetViewVector());
         mainCam.transform.SetPositionAndRotation(startPos, startRot);
     }
 

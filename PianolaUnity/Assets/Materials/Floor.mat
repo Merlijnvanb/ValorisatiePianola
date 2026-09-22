@@ -97,7 +97,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _Edge1: 9.5
+    - _Edge1: 8.6
     - _Edge2: 12.09
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
@@ -126,10 +126,10 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CloseColor: {r: 0.10980392, g: 0.08235294, b: 0.06666667, a: 1}
+    - _CloseColor: {r: 0.03773582, g: 0.020775327, b: 0.014061932, a: 1}
     - _Color: {r: 0.09433961, g: 0.058257204, b: 0.034264855, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FarColor: {r: 0.4433962, g: 0.4261534, b: 0.38692594, a: 1}
+    - _FarColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
