@@ -4,3 +4,4 @@ met muis navigeren
 fnaf like navigatie
 donkere omgeving, spotlight/lamp per plek (dramatisch)
 volumetric fog (render pass research even op pauze)
+clair obscur artstyle

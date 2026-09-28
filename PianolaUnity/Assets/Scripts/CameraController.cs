@@ -1,5 +1,6 @@
 using UnityEngine;
 using Unity.Mathematics;
+using System;
 using System.Collections;
 using PrimeTween;
 
@@ -8,6 +9,8 @@ public class CameraController : MonoBehaviour
     public float TweenDuration = .75f;
     public float TransitionThreshold = .95f;
     public CameraPoint StartPoint;
+
+    public event Action<CameraPoint> OnPointChanged;
 
     private CameraPoint currentPoint;
     private Sequence currentTweens;
@@ -27,7 +30,7 @@ public class CameraController : MonoBehaviour
     {
         var rawMousePos = Input.mousePosition;
         var relativeMousePos = new Vector2((rawMousePos.x / Screen.width - .5f) * 2f, (rawMousePos.y / Screen.height - .5f) * 2f);
-        Debug.Log(relativeMousePos);
+        //Debug.Log(relativeMousePos);
 
         var transition = new int2();
         
@@ -64,6 +67,7 @@ public class CameraController : MonoBehaviour
             .Group(Tween.Rotation(mainCam.transform, startRot, endRot, TweenDuration, Ease.OutExpo));
         
         currentPoint = point;
+        OnPointChanged?.Invoke(currentPoint);
 
         return true;
     }
@@ -75,27 +79,22 @@ public class CameraController : MonoBehaviour
 
         return _mainCam;
     }
-    
-    // private IEnumerator LerpTransform(Transform oldT, Transform newT)
-    // {
-    //     var t = 0f;
-    //
-    //     var oldPos = oldT.transform.position;
-    //     var oldRot = oldT.transform.rotation;
-    //
-    //     var newPos = newT.transform.position;
-    //     var newRot = newT.transform.rotation;
-    //
-    //     while (t < 1f)
-    //     {
-    //         mainCam.transform.position = Vector3.Lerp(oldPos, newPos, t);
-    //         mainCam.transform.rotation = Quaternion.Lerp(oldRot, newRot, t);
-    //
-    //         t += LerpSpeed * Time.deltaTime;
-    //         yield return null;
-    //     }
-    //     
-    //     mainCam.transform.position = newPos;
-    //     mainCam.transform.rotation = newRot;
-    // }
+
+    public bool MoveCam(Vector3 vector, float duration)
+    {
+        if (currentTweens.isAlive)
+            return false;
+        
+        var startPos = mainCam.transform.position;
+        var startRot = mainCam.transform.rotation;
+        
+        var endPos = startPos + vector;
+        var endRot = startRot;
+        
+        currentTweens = Sequence.Create()
+            .Group(Tween.Position(mainCam.transform, startPos, endPos, duration, Ease.OutExpo))
+            .Group(Tween.Rotation(mainCam.transform, startRot, endRot, duration, Ease.OutExpo));
+
+        return true;
+    }
 }

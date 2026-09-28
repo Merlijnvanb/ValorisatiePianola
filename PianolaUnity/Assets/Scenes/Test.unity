@@ -638,7 +638,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 330585546}
-  - {fileID: 5176341983807808011}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &741487753
@@ -674,6 +673,7 @@ Transform:
   - {fileID: 942204491}
   - {fileID: 2125587573}
   - {fileID: 395567256}
+  - {fileID: 5176341983807808011}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &832575517
@@ -1094,13 +1094,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1772957825}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2116421768}
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 180}
+  m_LocalEulerAnglesHint: {x: -90, y: 90, z: 180}
 --- !u!23 &1772957827
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1157,7 +1157,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1772957825}
-  m_Mesh: {fileID: 742313918245768270, guid: f57fb7d439ae0f84aa28440d256aae53, type: 3}
+  m_Mesh: {fileID: 742313918245768270, guid: 391cd8747f2fc00479976c28a402f0e6, type: 3}
 --- !u!1 &1934517906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,6 +1311,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2116421768}
+  - component: {fileID: 2116421769}
   m_Layer: 0
   m_Name: Rolls
   m_TagString: Untagged
@@ -1326,14 +1327,34 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2116421767}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.42, y: 0, z: 0.77}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -8.42, y: 2, z: 0.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1772957826}
   m_Father: {fileID: 1103094417}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &2116421769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116421767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e9a45c644616264d81efb408a754256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RollsManager
+  CameraController: {fileID: 5176341983807808012}
+  RollsPoint: {fileID: 942204490}
+  RollPrefab: {fileID: 7940755020140263079, guid: dee46d1aa3cbfb84ba923cc18870e4f9, type: 3}
+  Rows: 35
+  Columns: 15
+  Width: 10.5
+  Height: 3.75
+  NavigateDuration: 0.15
 --- !u!4 &2125587573 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9035003806483373551, guid: 2595d91f3aeab3a368c19193a278eb6f, type: 3}
@@ -1469,7 +1490,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 477642152}
+    m_TransformParent: {fileID: 741487754}
     m_Modifications:
     - target: {fileID: 1521593746175523743, guid: 551da49f56f55a56bb1be8b10aa70c28, type: 3}
       propertyPath: LerpSpeed
@@ -1509,7 +1530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6391621779701382474, guid: 551da49f56f55a56bb1be8b10aa70c28, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.72551
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6391621779701382474, guid: 551da49f56f55a56bb1be8b10aa70c28, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1517,7 +1538,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6391621779701382474, guid: 551da49f56f55a56bb1be8b10aa70c28, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.19874
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6391621779701382474, guid: 551da49f56f55a56bb1be8b10aa70c28, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1561,6 +1582,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6391621779701382474, guid: 551da49f56f55a56bb1be8b10aa70c28, type: 3}
   m_PrefabInstance: {fileID: 5176341983807808010}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5176341983807808012 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1521593746175523743, guid: 551da49f56f55a56bb1be8b10aa70c28, type: 3}
+  m_PrefabInstance: {fileID: 5176341983807808010}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66c032c3bff1b3778b9d25fe195767f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraController
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
