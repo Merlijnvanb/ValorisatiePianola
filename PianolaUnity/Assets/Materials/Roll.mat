@@ -99,7 +99,7 @@ Material:
     - _DstBlendAlpha: 0
     - _Edge1: 12.52
     - _Edge2: 12.09
-    - _EdgeSize: 0.8
+    - _EdgeSize: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0

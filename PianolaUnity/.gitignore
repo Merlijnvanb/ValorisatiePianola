@@ -104,3 +104,7 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# SFZ sample libraries are several GB; download them separately into StreamingAssets/SFZ
+/[Aa]ssets/[Ss]treamingAssets/SFZ/
+/[Aa]ssets/[Ss]treamingAssets/SFZ.meta

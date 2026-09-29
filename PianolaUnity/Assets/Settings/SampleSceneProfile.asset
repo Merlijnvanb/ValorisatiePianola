@@ -50,6 +50,96 @@ MonoBehaviour:
   dirtIntensity:
     m_OverrideState: 0
     m_Value: 0
+--- !u!114 &-3660669561526618149
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a074ec59f6e910b4e8c49f57e56cf95a, type: 3}
+  m_Name: VolumetricFogVolumeComponent
+  m_EditorClassIdentifier: com.cqf.urpvolumetricfog.runtime::VolumetricFogVolumeComponent
+  active: 1
+  <displayName>k__BackingField: 
+  distance:
+    <fieldHash>k__BackingField: 1961500920
+    m_OverrideState: 1
+    m_Value: 64
+  baseHeight:
+    <fieldHash>k__BackingField: -2094115984
+    m_OverrideState: 1
+    m_Value: 0
+  maximumHeight:
+    <fieldHash>k__BackingField: -1854765592
+    m_OverrideState: 1
+    m_Value: 50
+  enableGround:
+    <fieldHash>k__BackingField: -1615415200
+    m_OverrideState: 1
+    m_Value: 1
+  groundHeight:
+    <fieldHash>k__BackingField: -1376064808
+    m_OverrideState: 1
+    m_Value: 0
+  density:
+    <fieldHash>k__BackingField: -897364024
+    m_OverrideState: 1
+    m_Value: 0.2
+  attenuationDistance:
+    <fieldHash>k__BackingField: -658013632
+    m_OverrideState: 0
+    m_Value: 128
+  enableAPVContribution:
+    <fieldHash>k__BackingField: -418663240
+    m_OverrideState: 1
+    m_Value: 0
+  APVContributionWeight:
+    <fieldHash>k__BackingField: -179312848
+    m_OverrideState: 0
+    m_Value: 1
+  enableMainLightContribution:
+    <fieldHash>k__BackingField: 60037544
+    m_OverrideState: 1
+    m_Value: 1
+  anisotropy:
+    <fieldHash>k__BackingField: 299387936
+    m_OverrideState: 0
+    m_Value: 0.4
+  scattering:
+    <fieldHash>k__BackingField: 538738328
+    m_OverrideState: 1
+    m_Value: 0.036
+  tint:
+    <fieldHash>k__BackingField: 1017439112
+    m_OverrideState: 0
+    m_Value:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+  enableAdditionalLightsContribution:
+    <fieldHash>k__BackingField: 1256789504
+    m_OverrideState: 1
+    m_Value: 1
+  maxSteps:
+    <fieldHash>k__BackingField: 351981688
+    m_OverrideState: 1
+    m_Value: 128
+  blurIterations:
+    <fieldHash>k__BackingField: 591332080
+    m_OverrideState: 1
+    m_Value: 2
+  enabled:
+    <fieldHash>k__BackingField: 830682472
+    m_OverrideState: 1
+    m_Value: 1
+  renderPassEvent:
+    <fieldHash>k__BackingField: 1070032864
+    m_OverrideState: 0
+    m_Value: 500
 --- !u!114 &-3448325927062013899
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -157,7 +247,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 2
   neutralHDRRangeReductionMode:
     m_OverrideState: 0
     m_Value: 2

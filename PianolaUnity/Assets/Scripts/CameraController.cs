@@ -19,11 +19,11 @@ public class CameraController : MonoBehaviour
 
     void Start()
     {
-        currentPoint = StartPoint;
-        
         var startPos = StartPoint.transform.position;
         var startRot = Quaternion.LookRotation(StartPoint.GetViewVector());
         mainCam.transform.SetPositionAndRotation(startPos, startRot);
+        
+        ChangePoint(StartPoint);
     }
 
     void Update()

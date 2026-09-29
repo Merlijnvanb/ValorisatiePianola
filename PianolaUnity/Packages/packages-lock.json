@@ -224,6 +224,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "dev.f1yingbanana.sfizz-unity": {
+      "version": "https://github.com/f1yingbanana/sfizz-unity.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "f515ddf5a7f3011ee841b46a61c217e060b4da89"
+    },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,
