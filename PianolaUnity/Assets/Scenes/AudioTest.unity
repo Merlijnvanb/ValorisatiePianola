@@ -293,7 +293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MidiSequencer
   Player: {fileID: 500066447}
-  MidiPath: Midi/SUPRA-Franz_Liszt-La_Campanella.mid
+  MidiPath: Midi/SUPRA-Franz_Liszt-Liebestraum.mid
   PlayOnLoad: 1
   Speed: 1
   Transpose: 0
