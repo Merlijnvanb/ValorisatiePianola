@@ -13,6 +13,7 @@ public class RollsManager : MonoBehaviour
     public float Width;
     public float Height;
     public float NavigateDuration;
+    public RollData[] StartRolls;
 
     private Roll[,] rolls;
     private int2 pointer;
@@ -40,14 +41,22 @@ public class RollsManager : MonoBehaviour
         
         rolls = new Roll[Rows, Columns];
 
+        var count = 0;
         for (int i = 0; i < Rows; i++)
         {
             for (int j = 0; j < Columns; j++)
             {
+                // if (count >= StartRolls.Length)
+                //     break;
+                
                 var instance = Instantiate(RollPrefab, transform);
-                rolls[i, j] = instance.GetComponent<Roll>();
-                instance.transform.localPosition = new Vector3((i + 0.5f) * spacingWidth - Width/2f, Height/2f - (j + 0.5f) * spacingHeight, 0);
+                var rollComponent = instance.GetComponent<Roll>();
+                rolls[i, j] = rollComponent;
+                //rollComponent.Initialize(StartRolls[count]);
+                instance.transform.localPosition = new Vector3((i + 0.5f) * spacingWidth - Width / 2f, (j + 0.5f) * spacingHeight - Height / 2f, 0);
                 instance.transform.localEulerAngles = new Vector3(0, 90, 0);
+                
+                count++;
             }
         }
     }
@@ -73,36 +82,43 @@ public class RollsManager : MonoBehaviour
         else if (relativeMousePos.y < -threshold)
             transition.y = -1;
         
-        if (transition.Equals(new int2(0, 1)) && pointer.y > 0)
+        if (transition.Equals(new int2(0, 1)) && pointer.y < Columns -1)
         {
             if (MoveElements(new Vector3(0, spacingHeight, 0)))
             {
-                pointer.y--;
+                HandlePointerShift(new int2(0, 1));
             }
         }
-        else if (transition.Equals(new int2(0, -1)) && pointer.y < Columns - 1)
+        else if (transition.Equals(new int2(0, -1)) && pointer.y > 0)
         {
             if (MoveElements(new Vector3(0, -spacingHeight, 0)))
             {
-                pointer.y++;
+                HandlePointerShift(new int2(0, -1));
             }
         }
         else if (Input.mouseScrollDelta.y < 0 && pointer.x > 0)
         {
             if (MoveElements(new Vector3(0, 0, -spacingWidth)))
             {
-                pointer.x--;
+                HandlePointerShift(new int2(-1, 0));
             }
         }
         else if (Input.mouseScrollDelta.y > 0 && pointer.x < Rows - 1)
         {
             if (MoveElements(new Vector3(0, 0, spacingWidth)))
             {
-                pointer.x++;
+                HandlePointerShift(new int2(1, 0));
             }
         }
         
         Debug.Log(pointer);
+    }
+
+    private void HandlePointerShift(int2 diff)
+    {
+        rolls[pointer.x,pointer.y].Disable();
+        pointer += diff;
+        rolls[pointer.x,pointer.y].Enable();
     }
 
     private bool MoveElements(Vector3 vector)
@@ -122,10 +138,16 @@ public class RollsManager : MonoBehaviour
         {
             isActive = true;
             pointer = int2.zero;
+            rolls[pointer.x,pointer.y].Enable();
             SpotLightTransform.position = lightStartPos;
         }
         else
         {
+            if (isActive)
+            {
+                rolls[pointer.x,pointer.y].Disable();
+            }
+            
             isActive = false;
         }
     }

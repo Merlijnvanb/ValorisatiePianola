@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dd77ad4b331edb40899c3416f2488f9, type: 3}
+  m_Name: RachmaninoffPrelude
+  m_EditorClassIdentifier: Assembly-CSharp::RollData
+  MidiPath: Assets/StreamingAssets/Midi/SUPRA-Sergei_Rachmaninoff-Prelude in c sharp
+    minor.mid
+  PieceTitle: Prelude op. 3, no. 2, C sharp minor
+  ComposerName: Rachmaninoff, Sergei
+  PerformerName: Hill, R.

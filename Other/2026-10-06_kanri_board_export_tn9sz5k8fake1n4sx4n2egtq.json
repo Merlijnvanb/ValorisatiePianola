@@ -1,0 +1,268 @@
+{
+  "background": {
+    "blur": "10px",
+    "brightness": "100%",
+    "src": "C:\\Users\\projectadmin\\Downloads\\af77a5bd489dafd3a1b11eb373266f79.jpg"
+  },
+  "columns": [
+    {
+      "cards": [
+        {
+          "id": "x66lqicb2y2nub9gd9p3nhl0",
+          "name": "Custom fog implementation",
+          "tags": [
+            {
+              "color": "#f368fd",
+              "id": "deki3j5qpflqj944j4a1jxwt",
+              "style": "background-color: #f368fd; color: #1e293b",
+              "text": "Art",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            },
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "m7ynbjxvnrtzipo2uc3w635p",
+      "title": "Todo (Low)"
+    },
+    {
+      "cards": [
+        {
+          "id": "cva4it0xc43pgi72texn9qbr",
+          "name": "Pianola 3D art concept",
+          "tags": [
+            {
+              "color": "#ec834b",
+              "id": "sw4anmen8wzh27m2spjw2aka",
+              "style": "background-color: #ec834b; color: #1e293b",
+              "text": "Des",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            },
+            {
+              "color": "#f368fd",
+              "id": "deki3j5qpflqj944j4a1jxwt",
+              "style": "background-color: #f368fd; color: #1e293b",
+              "text": "Art",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sytjt223u1puka32crvotjaz",
+          "name": "Pianola 3D model",
+          "tags": [
+            {
+              "color": "#f368fd",
+              "id": "deki3j5qpflqj944j4a1jxwt",
+              "style": "background-color: #f368fd; color: #1e293b",
+              "text": "Art",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "lwcisj9fpcrkqpyp42rrl60a",
+      "title": "Todo (Medium)"
+    },
+    {
+      "cards": [
+        {
+          "id": "gyxf5gmf16qpmgkkz93g9n15",
+          "name": "Mechanism prototype plan",
+          "tags": [
+            {
+              "color": "#ec834b",
+              "id": "sw4anmen8wzh27m2spjw2aka",
+              "style": "background-color: #ec834b; color: #1e293b",
+              "text": "Des",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hghacafingbxgubr63mtkh57",
+          "name": "Mechanism rough prototype",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "e6ky2nndejtc9ej3fwft8fbx",
+      "title": "Todo (High)"
+    },
+    {
+      "cards": [
+        {
+          "id": "tkdo3532jwxavgafkc7tviwr",
+          "name": "Roll format placeholder",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "uoikp9qc6vuxcachfejwh5zh",
+      "title": "Doing"
+    },
+    {
+      "cards": [
+        {
+          "id": "xkbtaa4cc9t9wjooz6tonydp",
+          "name": "Placeholder Lighting",
+          "tags": [
+            {
+              "color": "#f368fd",
+              "id": "deki3j5qpflqj944j4a1jxwt",
+              "style": "background-color: #f368fd; color: #1e293b",
+              "text": "Art",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cn3zvcvug1ux0v0s87ur9s5d",
+          "name": "Prototype closet system",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            },
+            {
+              "color": "#ec834b",
+              "id": "sw4anmen8wzh27m2spjw2aka",
+              "style": "background-color: #ec834b; color: #1e293b",
+              "text": "Des",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yag6s91we4taz528fqyi4xzy",
+          "name": "Piano audio solution",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "spqguue27ygle1p0agrr0ymy",
+          "name": "Camera system first iteration",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "z8qayvzpegm1snkm6gm4t2gm",
+          "name": "Pinterest/mood board",
+          "tags": [
+            {
+              "color": "#f368fd",
+              "id": "deki3j5qpflqj944j4a1jxwt",
+              "style": "background-color: #f368fd; color: #1e293b",
+              "text": "Art",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "ytiedjyddgovyud3l9w5hz3h",
+      "title": "Done"
+    },
+    {
+      "cards": [],
+      "id": "ayv2lgezsyj8oike78skgdc8",
+      "title": "Archive"
+    }
+  ],
+  "globalTags": [
+    {
+      "color": "#5368d0",
+      "id": "gjh4wijp085krl4kihqujukp",
+      "style": "background-color: #5368d0; color: #f4f4f5",
+      "text": "Dev",
+      "tiClasses": [
+        "ti-valid"
+      ]
+    },
+    {
+      "color": "#ec834b",
+      "id": "sw4anmen8wzh27m2spjw2aka",
+      "style": "background-color: #ec834b; color: #1e293b",
+      "text": "Des",
+      "tiClasses": [
+        "ti-valid"
+      ]
+    },
+    {
+      "color": "#f368fd",
+      "id": "deki3j5qpflqj944j4a1jxwt",
+      "style": "background-color: #f368fd; color: #1e293b",
+      "text": "Art",
+      "tiClasses": [
+        "ti-valid"
+      ]
+    }
+  ],
+  "id": "tn9sz5k8fake1n4sx4n2egtq",
+  "lastEdited": "2026-10-06T12:15:58.264Z",
+  "title": "ValorisatiePianola"
+}
