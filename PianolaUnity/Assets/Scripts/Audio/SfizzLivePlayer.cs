@@ -20,7 +20,19 @@ public class SfizzLivePlayer : MonoBehaviour
     [Range(1, 256)]
     public int NumVoices = 128;
 
+    [Header("Loudness")]
+    [Tooltip("Measure the instrument on load and adjust its gain so every instrument plays at TargetLoudnessDb")]
+    public bool Normalize = true;
+    [Tooltip("Loudness (RMS, dBFS) that a test note at velocity 100 is brought to")]
+    [Range(-40, 0)]
+    public float TargetLoudnessDb = -20f;
+    [Tooltip("Manual trim on top of normalization")]
+    [Range(-24, 24)]
+    public float VolumeDb;
+
     public bool IsLoaded => loaded;
+    // Loudness of the test notes as the instrument came out of the box; NaN until measured.
+    public float MeasuredLoudnessDb => measuredLoudnessDb;
     public int SampleRate { get; private set; }
     // Number of samples rendered so far. This is the clock to schedule events against.
     public long CurrentSample => Interlocked.Read(ref sampleClock);
@@ -37,6 +49,10 @@ public class SfizzLivePlayer : MonoBehaviour
     }
 
     const int QueueCapacity = 4096; // must be a power of two
+    const float MaxNormalizeDb = 24f;
+    static readonly int[] loudnessTestNotes = { 48, 60, 72 };
+    const int LoudnessTestVelocity = 100;
+    const float LoudnessTestSeconds = 0.5f;
 
     IntPtr synth;
     readonly object synthLock = new object();
@@ -45,6 +61,9 @@ public class SfizzLivePlayer : MonoBehaviour
     int blockSize;
     long sampleClock;
     int droppedEvents;
+    volatile float measuredLoudnessDb = float.NaN;
+    volatile float targetGain = 1f; // set on the main thread, ramped to on the audio thread
+    float currentGain = 1f;
 
     // Main thread -> audio thread. Single producer (main thread), single consumer (audio thread).
     readonly SynthEvent[] queue = new SynthEvent[QueueCapacity];
@@ -84,6 +103,16 @@ public class SfizzLivePlayer : MonoBehaviour
         source.clip = null;
         if (!source.isPlaying)
             source.Play();
+    }
+
+    void Update()
+    {
+        float gainDb = VolumeDb;
+        float measured = measuredLoudnessDb;
+        if (Normalize && !float.IsNaN(measured))
+            gainDb += Mathf.Clamp(TargetLoudnessDb - measured, -MaxNormalizeDb, MaxNormalizeDb);
+
+        targetGain = Mathf.Pow(10f, gainDb / 20f);
     }
 
     void OnDestroy()
@@ -127,7 +156,10 @@ public class SfizzLivePlayer : MonoBehaviour
                     return;
                 }
 
-                Debug.Log($"sfizz loaded '{Path.GetFileName(path)}' in {stopwatch.ElapsedMilliseconds} ms ({rate} Hz, block {block})");
+                long loadMs = stopwatch.ElapsedMilliseconds;
+                measuredLoudnessDb = MeasureLoudnessDb(rate, block);
+                Debug.Log($"sfizz loaded '{Path.GetFileName(path)}' in {loadMs} ms ({rate} Hz, block {block}), " +
+                          $"loudness {measuredLoudnessDb:F1} dB measured in {stopwatch.ElapsedMilliseconds - loadMs} ms");
                 loaded = true;
             }
         }
@@ -135,6 +167,47 @@ public class SfizzLivePlayer : MonoBehaviour
         {
             Debug.LogException(e);
         }
+    }
+
+    // Renders a few test notes offline and returns their average RMS loudness in dBFS.
+    // Runs inside Load while holding synthLock, so the audio thread is not using the synth or buffers.
+    float MeasureLoudnessDb(int rate, int block)
+    {
+        int framesPerNote = (int)(LoudnessTestSeconds * rate);
+        double totalRms = 0;
+        int audibleNotes = 0;
+
+        SfizzNative.sfizz_enable_freewheeling(synth);
+
+        foreach (int note in loudnessTestNotes)
+        {
+            SfizzNative.sfizz_send_note_on(synth, 0, note, LoudnessTestVelocity);
+
+            double sumOfSquares = 0;
+            for (int rendered = 0; rendered < framesPerNote; rendered += block)
+            {
+                int count = Math.Min(block, framesPerNote - rendered);
+                SfizzNative.sfizz_render_block(synth, channelsPtr, 2, count);
+                for (int i = 0; i < count; i++)
+                    sumOfSquares += left[i] * left[i] + right[i] * right[i];
+            }
+
+            SfizzNative.sfizz_all_sound_off(synth);
+
+            // Notes outside the instrument's range are silent and would drag the average down.
+            double rms = Math.Sqrt(sumOfSquares / (framesPerNote * 2));
+            if (rms > 1e-5)
+            {
+                totalRms += rms;
+                audibleNotes++;
+            }
+        }
+
+        SfizzNative.sfizz_disable_freewheeling(synth);
+
+        if (audibleNotes == 0)
+            return float.NaN;
+        return 20f * (float)Math.Log10(totalRms / audibleNotes);
     }
 
     // The methods below may only be called from the main thread.
@@ -271,22 +344,29 @@ public class SfizzLivePlayer : MonoBehaviour
     }
 
     // sfizz renders planar stereo; Unity wants interleaved samples with any channel count.
+    // Gain changes are ramped across the block so moving the volume never clicks.
     void WriteOutput(float[] data, int channels, int offset, int count)
     {
+        float gain = currentGain;
+        float gainStep = (targetGain - gain) / count;
+
         for (int i = 0; i < count; i++)
         {
+            gain += gainStep;
             int index = (offset + i) * channels;
 
             if (channels == 1)
             {
-                data[index] = (left[i] + right[i]) * 0.5f;
+                data[index] = (left[i] + right[i]) * 0.5f * gain;
                 continue;
             }
 
-            data[index] = left[i];
-            data[index + 1] = right[i];
+            data[index] = left[i] * gain;
+            data[index + 1] = right[i] * gain;
             for (int c = 2; c < channels; c++)
                 data[index + c] = 0f;
         }
+
+        currentGain = gain;
     }
 }

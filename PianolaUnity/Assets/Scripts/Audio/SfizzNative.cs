@@ -31,6 +31,9 @@ public static class SfizzNative
     [DllImport(Lib)] public static extern void sfizz_send_pitch_wheel(IntPtr synth, int delay, int pitch);
     [DllImport(Lib)] public static extern void sfizz_all_sound_off(IntPtr synth);
     [DllImport(Lib)] public static extern int sfizz_get_num_active_voices(IntPtr synth);
+    // Freewheeling = offline rendering: sfizz waits for samples to stream in from disk instead of skipping them.
+    [DllImport(Lib)] public static extern void sfizz_enable_freewheeling(IntPtr synth);
+    [DllImport(Lib)] public static extern void sfizz_disable_freewheeling(IntPtr synth);
 
     // channels is a float** : a pointer to an array of per-channel float buffers.
     [DllImport(Lib)] public static extern void sfizz_render_block(IntPtr synth, IntPtr channels, int numChannels, int numFrames);

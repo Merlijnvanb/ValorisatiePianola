@@ -23,6 +23,8 @@ public class RollsManager : MonoBehaviour
     private float spacingWidth;
     private float spacingHeight;
 
+    private int rollsAmount;
+
     void OnEnable()
     {
         CameraController.OnPointChanged += HandlePointChanged;
@@ -40,19 +42,20 @@ public class RollsManager : MonoBehaviour
         spacingHeight = Height / Columns;
         
         rolls = new Roll[Rows, Columns];
-
+        rollsAmount = StartRolls.Length;
+        
         var count = 0;
         for (int i = 0; i < Rows; i++)
         {
             for (int j = 0; j < Columns; j++)
             {
-                // if (count >= StartRolls.Length)
-                //     break;
+                if (count >= StartRolls.Length)
+                    break;
                 
                 var instance = Instantiate(RollPrefab, transform);
                 var rollComponent = instance.GetComponent<Roll>();
                 rolls[i, j] = rollComponent;
-                //rollComponent.Initialize(StartRolls[count]);
+                rollComponent.Initialize(StartRolls[count]);
                 instance.transform.localPosition = new Vector3((i + 0.5f) * spacingWidth - Width / 2f, (j + 0.5f) * spacingHeight - Height / 2f, 0);
                 instance.transform.localEulerAngles = new Vector3(0, 90, 0);
                 
@@ -82,28 +85,28 @@ public class RollsManager : MonoBehaviour
         else if (relativeMousePos.y < -threshold)
             transition.y = -1;
         
-        if (transition.Equals(new int2(0, 1)) && pointer.y < Columns -1)
+        if (transition.Equals(new int2(0, 1)) && CanMove(transition))
         {
             if (MoveElements(new Vector3(0, spacingHeight, 0)))
             {
-                HandlePointerShift(new int2(0, 1));
+                HandlePointerShift(transition);
             }
         }
-        else if (transition.Equals(new int2(0, -1)) && pointer.y > 0)
+        else if (transition.Equals(new int2(0, -1)) && CanMove(transition))
         {
             if (MoveElements(new Vector3(0, -spacingHeight, 0)))
             {
-                HandlePointerShift(new int2(0, -1));
+                HandlePointerShift(transition);
             }
         }
-        else if (Input.mouseScrollDelta.y < 0 && pointer.x > 0)
+        else if (Input.mouseScrollDelta.y < 0 && CanMove(new int2(-1, 0)))
         {
             if (MoveElements(new Vector3(0, 0, -spacingWidth)))
             {
                 HandlePointerShift(new int2(-1, 0));
             }
         }
-        else if (Input.mouseScrollDelta.y > 0 && pointer.x < Rows - 1)
+        else if (Input.mouseScrollDelta.y > 0 && CanMove(new int2(1, 0)))
         {
             if (MoveElements(new Vector3(0, 0, spacingWidth)))
             {
@@ -112,6 +115,38 @@ public class RollsManager : MonoBehaviour
         }
         
         Debug.Log(pointer);
+    }
+
+    private bool CanMove(int2 direction)
+    {
+        if (direction.Equals(new int2(0, 1)))
+        {
+            if (pointer.y >= Columns - 1)
+                return false;
+
+            if (pointer.y + 1 >= rollsAmount - (pointer.x * Columns))
+                return false;
+        }
+        else if (direction.Equals(new int2(0, -1)))
+        {
+            if (pointer.y <= 0)
+                return false;
+        }
+        else if (direction.Equals(new int2(1, 0)))
+        {
+            if (pointer.x >= Rows - 1)
+                return false;
+
+            if (pointer.y >= rollsAmount - (pointer.x + 1) * Columns)
+                return false;
+        }
+        else if (direction.Equals(new int2(-1, 0)))
+        {
+            if (pointer.x <= 0)
+                return false;
+        }
+
+        return true;
     }
 
     private void HandlePointerShift(int2 diff)
