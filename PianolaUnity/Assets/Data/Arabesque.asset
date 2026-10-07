@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dd77ad4b331edb40899c3416f2488f9, type: 3}
   m_Name: Arabesque
   m_EditorClassIdentifier: Assembly-CSharp::RollData
-  MidiPath: Assets/StreamingAssets/Midi/arabesque_1_(c)oguri.mid
+  MidiPath: Midi/arabesque_1_(c)oguri.mid
   PieceTitle: 
   ComposerName: 
   PerformerName: 

@@ -51,7 +51,7 @@ public class CameraController : MonoBehaviour
         }
     }
 
-    private bool ChangePoint(CameraPoint point)
+    public bool ChangePoint(CameraPoint point)
     {
         if (currentTweens.isAlive)
             return false;

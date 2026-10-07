@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8dd77ad4b331edb40899c3416f2488f9, type: 3}
-  m_Name: RachmaninoffPrelude
+  m_Name: Chopin Winter Winds
   m_EditorClassIdentifier: Assembly-CSharp::RollData
-  MidiPath: Midi/SUPRA-Sergei_Rachmaninoff-Prelude_in_c_sharp_minor.mid
-  PieceTitle: Prelude op. 3, no. 2, C sharp minor
-  ComposerName: Rachmaninoff, Sergei
-  PerformerName: Hill, R.
+  MidiPath: Midi/SUPRA-Chopin-Winter_Wind.mid
+  PieceTitle: "\xC9tude Op. 25, No. 11"
+  ComposerName: "Chopin, Fr\xE9d\xE9ric"
+  PerformerName: Peppercorn, Gertrude
