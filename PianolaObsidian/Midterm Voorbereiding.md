@@ -1,6 +1,19 @@
 Midterm: do 5 november 2026. Upload van de presentatie en de urenverantwoording: deze week (exacte deadline nog checken)
 Bronnen: [[Midterm notes tim meeting]], [[Mechaniek Concreet]], Gesprek Pianola Museum 01-11 Feedback.pdf, ModuleInfo/Protocol Student Valorisatie 26-27.pdf
 
+## Ontwerpvraag
+
+v2: **Hoe kan ik met een digitale pianola-installatie bezoekers inzicht geven in de pneumatische werking van een reproductiepiano, op een manier die zowel in werking als in sfeer als authentiek wordt ervaren?**
+De deelvragen en de verantwoording van v1 naar v2 staan in [[ProjectDoelen & Nieuwe Ontwerpvraag]]. In de presentatie zet ik v1 en v2 naast elkaar, met de gewijzigde woorden in kleur en hun bron erbij
+
+Meetbaar maken, per begrip:
+
+| Begrip | Wat meet je | Hoe |
+|---|---|---|
+| Inzicht in de pneumatiek | Kan een tester na het spelen de keten reconstrueren? | Kaartjes met plaatjes (pomp, rol, ventiel, balgje, hamer…) in de goede volgorde laten leggen, of "leg uit aan iemand die het niet kent" |
+| Authentiek in werking | Klopt het volgens experts? | De stakeholder en 2 à 3 liefhebbers lopen per onderdeel een checklist door: klopt, vereenvoudigd maar goed, of fout. Plus technische validatie tegen SUPRA en PlaySK |
+| Authentiek in sfeer | Voelt het als het echte instrument? | Bezoekers scoren zowel de echte pianola-ruimte als het spel op de drie sfeerwoorden (1–5). Hoe kleiner het verschil, hoe authentieker |
+
 ## Rode draad: authenticiteit
 
 Twee lagen:
@@ -37,6 +50,7 @@ Vaste vorm per keuze: **keuze** · **hoe ontstaan** · **waarom** · **niet geko
 | Ambiance als basis (open haard) | Eigen visie, stakeholder enthousiast, publiek in de foyer | De pianola als meubel dat vanzelf speelt, zoals in een huiskamer | Een museumspel met opdrachten |
 | Tijd vertragen met het scrollwiel, als tempoklep | Sparren, gekoppeld aan het echte instrument | Verankerd in een echt bedieningsonderdeel | Klik op een noot en kijk een animatie (voelt als een video) |
 | Welte-Mignon en focus op de pneumatiek | Feedback van de stakeholder op 1 november | Wat de pianola uniek maakt tegenover een piano | Hamer en snaar centraal |
+| Geen tekst in beeld | Stond in ontwerpvraag v1, nu een ontwerpkeuze | Een echte pianola legt zichzelf uit door te spelen, en in het museum wordt het instrument getoond in plaats van met bordjes uitgelegd. Tekstvakken breken de sfeer en de authenticiteit | Uitleg in tekst of met een stem |
 | Zelf inspelen als rol | Eigen idee, historisch onderbouwd | Welte was een opnamesysteem voor pianisten. De bezoeker wordt een "Welte-artiest" | — |
 | In de kast kijken met de obstruction shader | Demo, op advies van Tim | Een volledig beeld van de speelervaring, ook al is het binnenwerk nog niet af. Zoals in het museum de voorkant opengaat | Het binnenwerk alleen beschrijven of schetsen |
 
@@ -47,7 +61,7 @@ Demo-route: de kast met de obstruction shader en het inspelen. Het binnenwerk ko
 | Min | Blok | Inhoud |
 |---|---|---|
 | 1 | Opening | Het spel speelt al als ambiance. Dan de pitchzin: "Op normale snelheid hoor je muziek. Vertraag je de tijd, dan zie je een machine." |
-| 1,5 | Context en vraag | Het museum, het probleem dat de magie in de kast verstopt zit, de ontwerpvraag, de stakeholder als inhoudsdeskundige |
+| 1,5 | Context en vraag | Het museum, het probleem dat de magie in de kast verstopt zit, de stakeholder als inhoudsdeskundige. Ontwerpvraag v1 naast v2, met de bron per gewijzigd woord |
 | 2 | Visie: authenticiteit | Museumfoto's en Onkel Philipp naast het moodboard, drie sfeerwoorden en hun vertaling |
 | 3 | De user experience doorlopen | Aanzetten, hij speelt vanzelf, in de kast kijken, zelf inspelen, je rol verschijnt, je hoort je spel terug. Vertragen en het binnenwerk als vervolg, met een schema of schets |
 | 3,5 | Ontwerpkeuzes | 4 à 5 keuzes uit de tabel, plus de iteratie met de stakeholder: voorstel → feedback → Welte-plan |

@@ -1,4 +1,20 @@
-Ontwerpvraag: Hoe kan ik een digitale pianola-installatie maken die de gebruiker inzicht geeft in haar interne werking, zonder tekstblokken te gebruiken?
+Ontwerpvraag v1: Hoe kan ik een digitale pianola-installatie maken die de gebruiker inzicht geeft in haar interne werking, zonder tekstblokken te gebruiken?
+
+Ontwerpvraag v2 (3 november 2026): **Hoe kan ik met een digitale pianola-installatie bezoekers inzicht geven in de pneumatische werking van een reproductiepiano, op een manier die zowel in werking als in sfeer als authentiek wordt ervaren?**
+
+Deelvragen:
+1. Welke onderdelen van de pneumatiek zijn essentieel om te laten zien? (stakeholder, Welte-bronnen, archieftekeningen)
+2. Welke vorm van interactie maakt de werking het best navolgbaar? (experimenten, tempoklep en tijd vertragen, een toon volgen)
+3. Wanneer ervaren liefhebbers en bezoekers het als authentiek? (museumfoto's, Onkel Philipp, tests)
+
+Van v1 naar v2:
+
+| Versie 1 | Versie 2 | Bron |
+|---|---|---|
+| interne werking | pneumatische werking van een reproductiepiano | Stakeholder op 1 november: focus op de pneumatiek, wat de pianola uniek maakt, Welte-Mignon |
+| — | authentiek in werking en in sfeer | Tim, museumfoto's, Onkel Philipp |
+| de gebruiker | bezoekers | Doelgroep: liefhebbers en museumbezoekers |
+| zonder tekstblokken | (naar de ontwerpkeuzes) | Doel en middel gescheiden: "zonder tekst" is nu een ontwerpkeuze, onderbouwd met authenticiteit (zie [[Midterm Voorbereiding]]) |
 
 
 **Project Valorisatie:**
