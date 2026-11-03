@@ -41,5 +41,5 @@ Volgorde:
 6. Encoder
 7. Visualisatie koppelen
 
-Let op:
-SUPRA-rollen zijn CC BY-NC-SA 4.0: goed voor studie en prototype, niet voor een betaalde release. Daarvoor eigen rollen via de encoder (rechtenvrije stukken) of rollen van het museum
+Belangrijk:
+SUPRA-rollen zijn CC BY-NC-SA 4.0
