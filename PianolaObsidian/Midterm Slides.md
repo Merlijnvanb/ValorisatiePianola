@@ -1,14 +1,16 @@
 Draft van de slides voor de midterm (do 5 november), per slide: wat erop komt, wat ik zeg, welke criteria het raakt en wat nog nodig is. Criteriacodes staan in [[Midterm Indeling]], de uitwerking in [[Midterm Voorbereiding]].
 
 Afwijkingen van de indeling:
-- Het speelmoment komt ná de presentatie (mag volgens het protocol, aan het begin aankondigen). Zo kan slide 6 de ideale ervaring schetsen, en spelen ze met de ontwerpvraag in hun hoofd. Het spel draait wel al als ambiance op het scherm terwijl de commissie binnenkomt
-- Eerst het museum en het probleem, daarna de ontwerpvraag als conclusie, met de drie versies klein eronder
+- Het speelmoment komt ná de presentatie (mag volgens het protocol, aan het begin aankondigen). Zo kan slide 3, direct na de vraag, de ideale ervaring schetsen, en spelen ze met de ontwerpvraag in hun hoofd. Het spel draait wel al als ambiance op het scherm terwijl de commissie binnenkomt
+- Eerst het museum en het probleem, daarna de ontwerpvraag (v3) als conclusie. Geen aparte slide voor de versies: die staan in het document dat ik bij de vraag kort toon
+- Mijn definitie van wanneer de vraag behaald is staat bij het testplan (slide 10b): eerst de lat, dan hoe ik die meet. Bij de vraag (slide 2) zeg ik dat het daar terugkomt
 - Geen aparte slide voor ontwerpkeuzes. Elke keuze staat op de slide waar hij ontstaat, met een vast keuzelabel: **Keuze:** … · *niet:* …. Zo herkent de commissie het patroon (O3) door de hele presentatie
-- Geen aparte slide voor samenwerking. Die blijkt uit de bronnen van de vraag (slide 2) en de iteratie (slide 7). Het geparafeerde formulier staat in de bijlage, en wordt op slide 7 in één zin genoemd. De open afspraken staan bij de planning (slide 11)
-- Geen aparte slide voor het binnenwerk. Vertragen en verkennen staan kort in het storyboard (slide 6). De pneumatiek wordt uitgelegd op slide 7, als uitkomst van de iteratie met de stakeholder. Het mechaniekplan zit in de bijlage
+- Geen aparte slide voor samenwerking. Die blijkt uit het document bij de vraag (slide 2) en de iteratie (slide 7). Het geparafeerde formulier wordt op slide 7 kort getoond. De open afspraken staan bij de planning (slide 11)
+- Geen aparte slide voor het binnenwerk. Vertragen en verkennen staan kort in het storyboard (slide 3). De pneumatiek wordt uitgelegd op slide 7, als uitkomst van de iteratie met de stakeholder. Het mechaniekplan wordt daar kort getoond
 - Vooronderzoek en ethiek krijgen elk een eigen slide. Het vooronderzoek dekt alle vijf typen van O2 in één overzicht, de doelgroep is daar één regel van
 - Techniek blijft compact, de T-criteria staan al op groen
-- Slides per stuk beknopt, details in de bijlage
+- Slides per stuk beknopt
+- Geen bijlage. Elk document wordt kort getoond op de slide waar het relevant is, met een vast label: **Document:** …. Een screenshot op de slide, en in de vragenronde kan ik het echte document openen in Obsidian. Alles wordt ook los geüpload
 
 ## Overzicht (15 min)
 
@@ -16,43 +18,67 @@ Afwijkingen van de indeling:
 |---|---|---|---|---|
 | 0 | *(spel draait als ambiance terwijl de commissie binnenkomt; aankondigen: speelmoment na de presentatie)* | — | O4 | |
 | 1 | Het museum en het probleem | 1 | O2 (context), O1, P1 | uitgewerkt |
-| 2 | De ontwerpvraag, met de drie versies klein eronder | 1 | O1, O4, Or2 | uitgewerkt |
-| 3 | Authenticiteit in werking en sfeer | 1,5 | O4, O3 | uitgewerkt |
-| 4 | Art: moodboards, clair-obscur en de verantwoording | 1,5 | O2, O3, O4, P1 | uitgewerkt |
-| 5 | Vooronderzoek: inhoud, context, repertoire, doelgroep, experimenten | 0,5 | O2 | uitgewerkt |
-| 6 | User experience: storyboard van de ideale ervaring in zes schetsen | 2 | O6, O4, O3 | uitgewerkt |
+| 2 | De ontwerpvraag (v3) | 0,5 | O1, O4, Or2 | uitgewerkt |
+| 3 | User experience: storyboard van de ideale ervaring in zes schetsen | 2 | O6, O4, O3 | uitgewerkt |
+| 4 | Authenticiteit in werking en sfeer | 1,5 | O4, O3 | uitgewerkt |
+| 5 | Art: moodboards, clair-obscur en de verantwoording | 1,5 | O2, O3, O4, P1 | uitgewerkt |
+| 6 | Vooronderzoek: inhoud, context, repertoire, doelgroep, experimenten | 0,5 | O2 | uitgewerkt |
 | 7 | Iteratie en pneumatiek: van gewone piano naar pneumatiek, quote, Welte-keten | 2 | O1, O2 (inhoud), O3, O4, Or2, P3 | uitgewerkt |
 | 8 | Ethiek: rechten op muziek, opnames van bezoekers, juistheid | 0,5 | O3, P2 | uitgewerkt |
 | 9 | Techniek: live audio, architectuur, de sfizz-update | 1,5 | T1, T2, T3, O3 | uitgewerkt |
 | 10 | Testplan: informeel getest, eerst usability, daarna per begrip | 1 | T4 | uitgewerkt |
-| 11 | Planning tot de endterm, met de open afspraken | 1 | Or1, P2, P3 ⚠️ | |
-| 12 | Afsluiting: eerlijk over de achterstand, één vraag, overgang naar spelen | 0,5 | Or1 | |
+| 10b | Wanneer is het gelukt? Definitie van behaald, per begrip | 0,5 | T4, O4 | definitie open |
+| 11 | Planning: Kanri-board, tijdschattingen, stakeholdermeeting om de week | 1 | Or1, Or2, Or3, P2, P3 | uitgewerkt |
+| 12 | Afsluiting: "En nu: tijd om te spelen." | 0,5 | Or1 | uitgewerkt |
 | — | *Speelmoment (na de presentatie)* | 5 | O5, O6, O4 | |
-| — | Bijlage (vragenronde) | — | Or3, P3, alles | |
 
-Samen 13,5 minuten: anderhalve minuut buffer.
+Samen 14 minuten: één minuut buffer.
+
+### Volgorde in het deck
+Het deck heeft 22 slides. Een paar onderdelen staan in een andere volgorde dan de nummering hierboven:
+
+| Deck | Slide | Hoort bij |
+|---|---|---|
+| 1 | Cover | 1 |
+| 2 | Ontwerpvraag | 2 |
+| 3–4 | De ideale ervaring (frame 1–3, 4–6) | 3 |
+| 5–6 | Authentiek in werking, authentiek in sfeer | 4 |
+| 7–10 | Eerst pastel nu clair-obscur, drie woorden, moodboard, geen tekst voor uitleg | 5 |
+| 11 | Vooronderzoek | 6 |
+| 12 | Quote | 7 |
+| 13 | Techniek | 9 |
+| 14 | De pneumatische keten | 7 |
+| 15 | Ethiek | 8 |
+| 16 | Live audio in het spel | 9 |
+| 17 | Testplan | 10 |
+| 18 | Wanneer is het gelukt? | 10b |
+| 19 | Meten per begrip | 10 |
+| 20–21 | Planning (Kanri), vier fases tot de endterm | 11 |
+| 22 | En nu: tijd om te spelen | 12 |
+
+De aparte tijdlijn met de stakeholdermeetings staat niet meer in het deck. De meetings staan nu bij de vier fases (deck-slide 21)
 
 ### Uit de beoordelingscriteria midterm
 Uit `ModuleInfo/00000106_2627 valorisatie beoordelingscriteria midterm voor tool sv141026.pdf`:
 - Testen (T4) weegt bij de midterm minder zwaar: nog niet getest is oké, een praktisch plan moet er wel zijn
 - Het prototype mag deelproducten of een paperprototype zijn
 - Expliciet genoemd, nog niet in de presentatie:
-  - [ ] **De debriefing.** Waar laat ik die zien? Mogelijk het geparafeerde verslag van 1 nov op slide 7
-  - [ ] **Hoe mogelijke uitdagingen zijn aangepakt.** De pitch had vier uitdagingen (identiteit tegenover de collectie, scope creep, van rol naar data, gebruik van materiaal). Mogelijk terugblikken bij de planning of de afsluiting
+  - [ ] **De debriefing.** Waar laat ik die zien? Het geparafeerde verslag van 1 nov wordt nu op slide 7 getoond. Telt dat als debriefing, of bedoelt de module iets anders?
+  - [ ] **Hoe mogelijke uitdagingen zijn aangepakt.** De pitch had vier uitdagingen (identiteit tegenover de collectie, scope creep, van rol naar data, gebruik van materiaal). De afsluiting is nu alleen de overgang naar spelen, dus dit kan alleen nog bij de planning (slide 11), of mondeling verspreid over de slides waar ze spelen
 
 ### Waar staat welke keuze
 
-| Keuze | Niet gekozen | Slide |
-|---|---|---|
-| Geen speler in beeld | Een mens visualiseren | 3 |
-| Ambiance als basis (open haard) | Een museumspel met opdrachten | 3 |
-| Clair-obscur, één lamp per plek | Witte kamer in pastel | 4 |
-| Geen tekst voor uitleg, wel voor bediening | Uitleg in tekst of met een stem | 4 |
-| Vertragen met het scrollwiel, als tempoklep | Klik op een noot en kijk een animatie | 6 |
-| Zelf inspelen als rol | — | 6 |
-| In de kast kijken met de obstruction shader | Het binnenwerk alleen schetsen | 6 |
-| Welte-Mignon en focus op de pneumatiek | Hamer en snaar centraal | 7 |
-| Live gegenereerde piano-audio | Alle rollen vooraf opnemen | 9 |
+| Keuze                                       | Niet gekozen                          | Slide |
+| ------------------------------------------- | ------------------------------------- | ----- |
+| Geen speler in beeld                        | Een mens visualiseren                 | 4     |
+| Ambiance als basis (open haard)             | Een museumspel met opdrachten         | 4     |
+| Clair-obscur, één lamp per plek             | Witte kamer in pastel                 | 5     |
+| Geen tekst voor uitleg, wel voor bediening  | Uitleg in tekst of met een stem       | 5     |
+| Vertragen met het scrollwiel, als tempoklep | Klik op een noot en kijk een animatie | 3     |
+| Zelf inspelen als rol                       | —                                     | 3     |
+| In de kast kijken met de obstruction shader | Het binnenwerk alleen schetsen        | 3     |
+| Welte-Mignon en focus op de pneumatiek      | Hamer en snaar centraal               | 7     |
+| Live gegenereerde piano-audio               | Alle rollen vooraf opnemen            | 9     |
 
 ## Slides
 
@@ -80,112 +106,23 @@ Uit `ModuleInfo/00000106_2627 valorisatie beoordelingscriteria midterm voor tool
 **Doel:** de vraag als logisch gevolg van slide 1, en als bril voor de rest van de presentatie.
 
 **Op de slide**
-- Ontwerpvraag v2 groot: *Hoe kan ik met een digitale pianola-installatie bezoekers inzicht geven in de pneumatische werking van een reproductiepiano, op een manier die zowel in werking als in sfeer als authentiek wordt ervaren?*
-- Accentkleur op *pneumatische werking*, *authentiek*, *werking* en *sfeer*. Die woorden zijn de route door de presentatie
-- Klein eronder een tijdlijn met drie stippen, per versie alleen de kernwoorden. De laatste stip is de vraag erboven:
-  - **sep · pitch:** "muziek zichtbaar maken"
-  - **[datum] · v1:** "inzicht in de interne werking" ← eerste gesprek met het museum
-  - **3 nov · v2:** "pneumatische werking" en "authentiek" ← stakeholder 1 nov, mijn museumbezoek
-- Volledige versies in de bijlage
+- Ontwerpvraag v3 groot: *Hoe kan ik met een digitale pianola-installatie bezoekers een reproductiepiano authentiek laten ervaren, zowel in werking als in sfeer?*
+- Accentkleur op *authentiek*, *werking* en *sfeer*. Die woorden zijn de route door de presentatie
+- **Document:** [[ProjectDoelen & Nieuwe Ontwerpvraag]], met de versies (pitch, v1, v2, v3) en waarom ze veranderden
 
 **Wat ik zeg**
-- Van muziek zichtbaar maken naar de machine zichtbaar maken
-- *Pneumatische werking* komt van de stakeholder, *authentiek* is mijn eigen toevoeging: de ervaring moet echt zijn en kloppen
-- "Wat jullie straks spelen is mijn poging om deze vraag te beantwoorden." Zo spelen ze met de vraag in hun hoofd
-- "Zonder tekst" is uit de vraag gegaan, dat komt terug bij de art (slide 4)
-
-**Nodig**
-- [ ] Datum van v1
+- Twee begrippen: authentiek in werking en authentiek in sfeer
+- Werking gaat over het hele apparaat, van rol tot klank. De pneumatiek, wat het museum het belangrijkst vindt, zit daarin en komt terug bij de technische uitleg (slide 7 en 9)
+- De vraag is gegroeid uit de gesprekken met het museum: van muziek zichtbaar maken naar de machine authentiek laten ervaren
+- Wanneer het voor mij gelukt is, laat ik zien bij het testplan (slide 10b)
+- "Wat jullie straks spelen is mijn poging om deze vraag te beantwoorden." Zo spelen ze met de vraag in hun hoofd. Daarna meteen het storyboard (slide 3)
 
 **Open:** welk instrument op de museumfoto staat (Welte?) staat op de vragenlijst voor het museum: rode of groene Welte, ingebouwd of voorzetapparaat.
 
-### 3. Authenticiteit in werking en sfeer
-**Criteria:** O4, O3
-
-**Doel:** de visie achter het concept. Werking en sfeer zijn twee lagen, en het live optreden is de brug ertussen.
-
-**Op de slide**
-- Museumfoto en een still uit het spel naast elkaar, liefst in dezelfde compositie
-- Twee korte regels:
-  - **Werking:** niets vooraf opgenomen. Echte rollen, live gegenereerde audio, jouw spel wordt een rol
-  - **Sfeer:** een pianist in je huiskamer. Warm, intiem, oud
-- Keuzelabels:
-  - **Keuze:** geen speler in beeld · *niet:* een mens visualiseren
-  - **Keuze:** ambiance als basis, als een open haard · *niet:* een museumspel met opdrachten
-
-**Wat ik zeg**
-- Welte-Mignon bracht de opname van een echte pianist naar je huiskamer. Dat live optreden is de brug tussen werking en sfeer
-- Werking: als maker weet ik dat het werkt zoals in het echt. Geen vooraf opgenomen audio, de klank wordt live gemaakt, net als bij het instrument
-- Bij het inspelen merkt de bezoeker dat zelf: je eigen spel komt terug als rol
-- Geen speler in beeld: de persoonlijkheid van de pianist zit in de muziek en de dynamiek, precies wat Welte vastlegde
-- Ambiance: de pianola als meubel dat vanzelf speelt, zoals in een huiskamer. Daar komt het open-haard-idee vandaan
-- Naar slide 4: hoe ik die sfeer vertaal naar beeld
-
-**Let op:** de ontwerpvraag zegt "als authentiek wordt *ervaren*". Authentiek in werking moet dus ook voor de bezoeker merkbaar zijn, niet alleen voor de maker. Het inspelen en de check door liefhebbers (testplan, slide 10) dekken dat.
-
-**Nodig**
-- [ ] Still uit het spel die qua compositie past bij een museumfoto
-- [ ] Bron voor Welte als "de pianist in je huiskamer" (hoe het destijds verkocht werd)
-
-### 4. Art: moodboards, clair-obscur en de verantwoording
-**Criteria:** O2, O3, O4, P1
-
-**Doel:** laten zien hoe de sfeer van slide 3 een artstyle werd, en dat dat via iteratie ging.
-
-**Op de slide**
-- Moodboard als strook of collage, met de vier bronnen klein gelabeld: clair-obscur (Pinterest), Welte-Mignon-machines en -rollen, het museum van binnen, Onkel Philipp
-- Iteratie: de witte pastelkamer naast de huidige versie in clair-obscur
-- Drie woorden met hun vertaling (voorstel, nog checken):
-  - **intiem** (kernwoord) → één lamp, de rest donker: je bent alleen met het instrument
-  - **warm** → amber licht, lage kleurtemperatuur
-  - **houtig** → het hout van de kast en de rollenkast, tactiele materialen
-- Keuzelabels:
-  - **Keuze:** clair-obscur, één lamp per plek · *niet:* witte kamer in pastel
-  - **Keuze:** geen tekst voor uitleg, wel voor bediening · *niet:* uitleg in tekst of met een stem
-
-**Wat ik zeg**
-- Eerst een witte kamer in pastel geprobeerd. Met veel licht lukte het intieme gevoel niet
-- Clair-obscur: je bent alleen met het instrument. Het enige wat je ziet, is wat in het licht staat
-- Het licht stuurt ook waar je kijkt. Licht neemt zo de rol over van tekst als uitleg
-- Geen tekst: stond als eis in v1, is nu een keuze. Een echte pianola legt zichzelf uit door te spelen, en in het museum wordt het instrument getoond in plaats van met bordjes uitgelegd. Tekst is er alleen voor de bediening
-- Bijkomend voordeel: de omgeving kan eenvoudiger, wat scheelt in de scope
-
-**Let op:** moodboard, iteratie, drie woorden en twee keuzes op één slide is vol. Wordt het te druk, dan het moodboard in de bijlage.
-
-**Nodig**
-- [ ] Afbeeldingen verzamelen: Welte-machines en -rollen, museum van binnen, Onkel Philipp, Pinterest-board
-- [ ] Screenshot of beeld van de witte pastelkamer
-- [ ] Vertaling per woord checken
-
-### 5. Vooronderzoek
-**Criteria:** O2
-
-**Doel:** alle vijf typen vooronderzoek in één overzicht, elk met een conclusie. Overzicht, geen diepte: de pneumatiek komt op slide 7, de techniek op slide 9.
-
-**Op de slide:** per type één regel met de conclusie, liefst met een klein beeld erbij (conclusies zijn een voorstel, nog checken)
-
-| Type | Wat | Conclusie |
-|---|---|---|
-| Inhoud | SUPRA, bronnen over de Welte-Mignon (veel in andere talen) | De pneumatische keten is wat ik moet laten zien. Hieruit volgt mijn mechaniekplan |
-| Context | Museumbezoek, stakeholder 1 nov, bouwtekeningen toegezegd | De pneumatiek is wat de pianola uniek maakt |
-| Repertoire | Onkel Philipp (zo wel), Speelklok Museum Utrecht (zo niet) | Werkende objecten, dichtbij en intiem. Niet oubollig of theatraal |
-| Doelgroep | Liefhebbers thuis, museumbezoekers, expobezoekers, mogelijk andere museums zoals Speelklok | Breed. Nog een aanname, te checken via de stakeholder en de vrijwilligers |
-| Experimenten | Sampler, camera, pastelkamer | Live audio is haalbaar, clair-obscur werkt beter dan veel licht |
-
-**Wat ik zeg**
-- Bronnen over de mechaniek zijn vaak in het Duits of Engels. Ik heb AI gebruikt om ze samen te vatten, en daaruit mijn mechaniekplan gemaakt (staat in de AI-bijlage)
-- De stakeholder kijkt in het archief naar bouwtekeningen van de Welte-Mignon. Toegezegd, nog geen datum. De afspraak over het gebruik volgt
-- Speelklok: daar heb ik gezien hoe ik het niet wil, net te oubollig en theatraal
-
-**Nodig**
-- [ ] Conclusies per regel checken
-- [ ] Voor de AI-bijlage: welke AI, welke prompts, voor het samenvatten van bronnen
-- [ ] Beelden: SUPRA-rolscan of de foto van de Welte-rol met Liszt uit de pitch, museum, Onkel Philipp, Speelklok, screenshot experiment
-
-### 6. User experience
+### 3. User experience
 **Criteria:** O6, O4, O3
 
-**Doel:** de ideale ervaring als storyboard in eigen schetsen. Het speelmoment komt pas aan het eind, dus dit is hun eerste beeld van hoe het werkt.
+**Doel:** de ideale ervaring als storyboard in eigen schetsen. Het speelmoment komt pas aan het eind, dus dit is hun eerste beeld van hoe het werkt. Staat direct na de vraag, zodat de commissie alles wat volgt aan de ervaring kan koppelen: eerst wat de bezoeker doet, daarna waarom (authenticiteit, slide 4).
 
 **Op de slide:** zes schetsen op een rij, elk met een kort onderschrift. Frames die nog niet speelbaar zijn krijgen een klein label "volgende fase"
 
@@ -215,8 +152,95 @@ Keuzelabels, bij het frame waar ze horen:
 **Nodig**
 - [ ] Zes schetsen maken
 
+### 4. Authenticiteit in werking en sfeer
+**Criteria:** O4, O3
+
+**Doel:** de visie achter het concept. Werking en sfeer zijn twee lagen, en het live optreden is de brug ertussen.
+
+**Op de slide**
+- Museumfoto en een still uit het spel naast elkaar, liefst in dezelfde compositie
+- Twee korte regels:
+  - **Werking:** niets vooraf opgenomen. Echte rollen, live gegenereerde audio, jouw spel wordt een rol
+  - **Sfeer:** een pianist in je huiskamer. Warm, intiem, oud
+- Keuzelabels:
+  - **Keuze:** geen speler in beeld · *niet:* een mens visualiseren
+  - **Keuze:** ambiance als basis, als een open haard · *niet:* een museumspel met opdrachten
+
+**Wat ik zeg**
+- Welte-Mignon bracht de opname van een echte pianist naar je huiskamer. Dat live optreden is de brug tussen werking en sfeer
+- Werking: als maker weet ik dat het werkt zoals in het echt. Geen vooraf opgenomen audio, de klank wordt live gemaakt, net als bij het instrument
+- Bij het inspelen merkt de bezoeker dat zelf (frame 5 en 6 van het storyboard): je eigen spel komt terug als rol
+- Geen speler in beeld: de persoonlijkheid van de pianist zit in de muziek en de dynamiek, precies wat Welte vastlegde
+- Ambiance: de pianola als meubel dat vanzelf speelt, zoals in een huiskamer. Daar komt het open-haard-idee vandaan
+- Naar slide 5: hoe ik die sfeer vertaal naar beeld
+
+**Let op:** de ontwerpvraag zegt "authentiek laten *ervaren*". Authentiek in werking moet dus ook voor de bezoeker merkbaar zijn, niet alleen voor de maker. Het inspelen, de check door liefhebbers en de kaartjestest (testplan, slide 10) dekken dat.
+
+**Nodig**
+- [ ] Still uit het spel die qua compositie past bij een museumfoto
+- [ ] Bron voor Welte als "de pianist in je huiskamer" (hoe het destijds verkocht werd)
+
+### 5. Art: moodboards, clair-obscur en de verantwoording
+**Criteria:** O2, O3, O4, P1
+
+**Doel:** laten zien hoe de sfeer van slide 4 een artstyle werd, en dat dat via iteratie ging.
+
+**Op de slide**
+- Moodboard als strook of collage, met de vier bronnen klein gelabeld: clair-obscur (Pinterest), Welte-Mignon-machines en -rollen, het museum van binnen, Onkel Philipp
+- Iteratie: de witte pastelkamer naast de huidige versie in clair-obscur
+- Drie woorden met hun vertaling (voorstel, nog checken):
+  - **intiem** (kernwoord) → één lamp, de rest donker: je bent alleen met het instrument
+  - **warm** → amber licht, lage kleurtemperatuur
+  - **houtig** → het hout van de kast en de rollenkast, tactiele materialen
+- Keuzelabels:
+  - **Keuze:** clair-obscur, één lamp per plek · *niet:* witte kamer in pastel
+  - **Keuze:** geen tekst voor uitleg, wel voor bediening · *niet:* uitleg in tekst of met een stem
+
+**Document:** het moodboard in PureRef (`Other/PianolaRefs.pur`)
+
+**Wat ik zeg**
+- Eerst een witte kamer in pastel geprobeerd. Met veel licht lukte het intieme gevoel niet
+- Clair-obscur: je bent alleen met het instrument. Het enige wat je ziet, is wat in het licht staat
+- Het licht stuurt ook waar je kijkt. Licht neemt zo de rol over van tekst als uitleg
+- Geen tekst: stond als eis in v1, is nu een keuze. Een echte pianola legt zichzelf uit door te spelen, en in het museum wordt het instrument getoond in plaats van met bordjes uitgelegd. Tekst is er alleen voor de bediening
+- Bijkomend voordeel: de omgeving kan eenvoudiger, wat scheelt in de scope
+
+**Let op:** moodboard, iteratie, drie woorden en twee keuzes op één slide is vol. Wordt het te druk, dan het moodboard als eigen slide direct erna.
+
+**Nodig**
+- [ ] Afbeeldingen verzamelen: Welte-machines en -rollen, museum van binnen, Onkel Philipp, Pinterest-board
+- [ ] Screenshot of beeld van de witte pastelkamer
+- [ ] Vertaling per woord checken
+
+### 6. Vooronderzoek
+**Criteria:** O2
+
+**Doel:** alle vijf typen vooronderzoek in één overzicht, elk met een conclusie. Overzicht, geen diepte: de pneumatiek komt op slide 7, de techniek op slide 9.
+
+**Op de slide:** per type één regel met de conclusie, liefst met een klein beeld erbij (conclusies zijn een voorstel, nog checken)
+
+| Type | Wat | Conclusie |
+|---|---|---|
+| Inhoud | SUPRA, bronnen over de Welte-Mignon (veel in andere talen) | De pneumatische keten is wat ik moet laten zien. Hieruit volgt mijn mechaniekplan |
+| Context | Museumbezoek, stakeholder 1 nov, bouwtekeningen toegezegd | De pneumatiek is wat de pianola uniek maakt |
+| Repertoire | Onkel Philipp (zo wel), Speelklok Museum Utrecht (zo niet) | Werkende objecten, dichtbij en intiem. Niet oubollig of theatraal |
+| Doelgroep | Liefhebbers thuis, museumbezoekers, expobezoekers, mogelijk andere museums zoals Speelklok | Breed. Nog een aanname, te checken via de stakeholder en de vrijwilligers |
+| Experimenten | Sampler, camera, pastelkamer | Live audio is haalbaar, clair-obscur werkt beter dan veel licht |
+
+**Document:** het AI-document (export van de Claude-gesprekken), bij de zin over het samenvatten van bronnen
+
+**Wat ik zeg**
+- Bronnen over de mechaniek zijn vaak in het Duits of Engels. Ik heb AI gebruikt om ze samen te vatten, en daaruit mijn mechaniekplan gemaakt
+- De stakeholder kijkt in het archief naar bouwtekeningen van de Welte-Mignon. Toegezegd, nog geen datum. De afspraak over het gebruik volgt
+- Speelklok: daar heb ik gezien hoe ik het niet wil, net te oubollig en theatraal
+
+**Nodig**
+- [ ] Conclusies per regel checken
+- [ ] Voor het AI-document: welke AI, welke prompts, voor het samenvatten van bronnen
+- [ ] Beelden: SUPRA-rolscan of de foto van de Welte-rol met Liszt uit de pitch, museum, Onkel Philipp, Speelklok, screenshot experiment
+
 ### 7. Iteratie en pneumatiek
-**Criteria:** O1, O2 (inhoud), O3, Or2, P3
+**Criteria:** O1, O2 (inhoud), O3, O4, Or2, P3
 
 **Doel:** de pneumatiek uitleggen als uitkomst van de samenwerking. De focus verschuift van wat ook in een gewone piano zit naar wat alleen een pianola heeft.
 
@@ -229,11 +253,15 @@ Keuzelabels, bij het frame waar ze horen:
   - de rol stuurt de stack: een gaatje laat lucht door
 - Keuzelabel: **Keuze:** Welte-Mignon en focus op de pneumatiek · *niet:* hamer en snaar centraal
 
+**Document:**
+- het geparafeerde verslag van 1 nov (`Gesprek Pianola Museum 01-11 Feedback.pdf`), bij de quote en de afspraken
+- het mechaniekplan ([[Mechaniek Concreet]]), bij het diagram van de keten
+
 **Wat ik zeg**
 - Mijn eerste beeld van het mechaniek ging vooral over wat ook in een gewone piano zit. De stakeholder stuurde bij: het bijzondere is de pneumatiek
 - Het feit om te onthouden: hoe hard een noot klinkt, staat óók als gaatjes op de rol. Aan elke kant van de rol zitten tien expressiesporen. Bas en discant hebben elk hun eigen vacuüm, dus linker- en rechterhand kunnen verschillend hard spelen. Dat maakt het een reproductiepiano
 - De quote: dynamiek uit luchtdruk zichtbaar maken is nog niet eerder gedaan. Daar ligt de originaliteit van het concept (O4), en het belang van de stakeholder
-- "De afspraken over rechten en gebruik hebben we op 1 november samen vastgelegd en geparafeerd. Het formulier zit in de bijlage."
+- "De afspraken over rechten en gebruik hebben we op 1 november samen vastgelegd en geparafeerd. " Daarbij kort het formulier tonen
 
 **Open:** de vorm. (a) Voor en na naast elkaar met de quote in het midden, of (b) drie stappen onder elkaar.
 
@@ -244,7 +272,7 @@ Keuzelabels, bij het frame waar ze horen:
 ### 8. Ethiek
 **Criteria:** O3, P2
 
-**Doel:** drie ethische punten die eigen zijn aan dit project, elk met een aanpak. Museummateriaal staat bij de planning (slide 11), AI in de bijlage.
+**Doel:** drie ethische punten die eigen zijn aan dit project, elk met een aanpak. Museummateriaal staat bij de planning (slide 11), AI op slide 6.
 
 **Op de slide:** drie punten, elk met één regel aanpak
 
@@ -263,7 +291,7 @@ Keuzelabels, bij het frame waar ze horen:
 **Open:** tijd. Nu een halve minuut, eventueel een volle minuut uit de buffer.
 
 ### 9. Techniek
-**Criteria:** T1, T2, T3
+**Criteria:** T1, T2, T3, O3
 
 **Doel:** laten zien dat de techniek uit de visie volgt. Live piano-audio was vanaf het begin een harde eis, omdat het de authenticiteit in werking draagt.
 
@@ -294,9 +322,9 @@ Keuzelabels, bij het frame waar ze horen:
 **Op de slide**
 - **Al getest (informeel):** de game feel van de kast, het geluid van de MIDI-oplossing
 - **Eerstvolgende test:** usability en navigatie, zodra er een nieuwe iteratie van het binnenwerk staat
-- **Daarna, per begrip uit de ontwerpvraag:**
-  - *inzicht in de pneumatiek* → de keten in de goede volgorde leggen met kaartjes
-  - *authentiek in werking* → de stakeholder en liefhebbers lopen een checklist door (klopt / vereenvoudigd maar goed / fout)
+- **Daarna, per begrip uit de ontwerpvraag** (gekoppeld aan de definitie op slide 10b):
+  - *authentiek in werking, klopt het* → de stakeholder en liefhebbers lopen een checklist door (klopt / vereenvoudigd maar goed / fout)
+  - *authentiek in werking, kan de bezoeker het volgen* → de keten in de goede volgorde leggen met kaartjes
   - *authentiek in sfeer* → bezoekers scoren de echte ruimte en het spel op intiem, warm en houtig
 
 **Wat ik zeg**
@@ -308,23 +336,82 @@ Keuzelabels, bij het frame waar ze horen:
 **Nodig**
 - [ ] Per informele test één regel conclusie
 
-### 11. Planning
-**Criteria:** Or1, P2, P3
+### 10b. Wanneer is het gelukt?
+**Criteria:** T4, O4
 
-**Vast onderdeel:** de open afspraken als to-do met datum: de AI-afspraak, en het gebruik van museummateriaal (archieftekeningen, foto's). Lukt het bellen vóór donderdag, dan staan ze als afgesproken.
+**Doel:** mijn definitie van wanneer de ontwerpvraag behaald is, per begrip. In het deck staat deze slide tussen het testplan en "meten per begrip": eerst de lat, dan hoe ik die meet.
+
+**Op de slide:** twee regels
+- **Authentiek in werking:** [definitie]
+- **Authentiek in sfeer:** [definitie]
+
+**Wat ik zeg**
+- [nog in te vullen]
+- Hoe ik dit meet: de volgende slide, meten per begrip
+
+**Nodig**
+- [ ] Definitie van behaald voor werking en voor sfeer
+
+### 11. Planning
+**Criteria:** Or1, Or2, Or3, P2, P3
+
+**Doel:** laten zien wat er nog moet gebeuren, in welke weken, en hoe ik de scope bewaak. Planning, testplan en samenwerking komen samen in een vast ritme: om de week een meeting met de stakeholder.
+
+**Op de slides:** eerst het Kanri-board, daarna de vier fases met de weken. Weken zoals in de urenverantwoording (week 1 = 31 aug, midterm = week 10)
+
+**Links: screenshot van het bijgewerkte Kanri-board.** De kolommen Todo (High / Medium / Low) zijn de prioriteit, de tags (Dev, Des, Art, Misc) het soort werk
+
+**Tweede slide: vier fases tot de endterm.** Bredere blokken in plaats van losse features: concreet genoeg om te sturen, open genoeg om binnen een fase te schuiven. De losse taken staan op het Kanri-board
+
+| Fase | Weken | Wat | Klaar als | Museum |
+|---|---|---|---|---|
+| 1. Rol en noten | 11–13 | rollezer + stack, vertragen, expressie | een rol speelt zichtbaar door de stack, vertraagbaar | wk 12: usability-test |
+| 2. De lucht | 14–15 | vacuüm, luchtmotor + governor, pedalen + terugspoelen | de hele keten werkt | wk 14: checklist werking |
+| 3. De ervaring | 16, 19 | encoder, ambiance, art en geluid | zelf inspelen tot rol, de sfeer staat | wk 16: kaartjestest, wk 19: sfeertest |
+| 4. Opleveren | 19–20 | build groot scherm, documentatie | de endterm-build draait | wk 20: advies museum |
+
+De obstruction shader en het zelf inspelen (week 10) zijn voor de midterm en staan daarom niet in de fases
+
+**Stakeholdermeetings** (fysiek in het museum). Staan in de kolom Museum van de fasetabel: elke fase eindigt met een meeting en de test van die fase
+- ◆ wk 12: eerste binnenwerk tonen + usability-test. Afspraken AI en museummateriaal vastleggen
+- ◆ wk 14: checklist "authentiek in werking"
+- ◆ wk 16: kaartjestest "authentiek in werking: kan de bezoeker het volgen"
+- *wk 17–18: kerstvakantie*
+- ◆ wk 19: sfeertest in het museum, echte ruimte tegenover het spel
+- ◆ wk 20: endterm, beoordelingsadvies van het museum
+
+**Document:**
+- het Kanri-board zelf, live in de vragenronde
+- de urenverantwoording, bij de weeknummers. Die volgen dezelfde telling
+- de [[Idee dump]], bij de geparkeerde ideeën
+
+**Wat ik zeg**
+- De volgorde van het binnenwerk volgt de keten uit het mechaniekplan: eerst wat de rol leest en de noten aanstuurt, dan de lucht erachter
+- Elke meeting heeft een vaste taak: ik laat de nieuwe stap zien en doe de test uit het testplan (slide 10) die bij die fase hoort. Bij deze stakeholder werkt een concreet voorstel met "waar zit ik ernaast?" beter dan open vragen
+- Scope: loopt het uit, dan vallen eerst de Low-kaarten af, daarna Medium. Ideeën als de muis als lamp heb ik bewust geparkeerd
+- De open afspraken (AI, gebruik van museummateriaal zoals de archieftekeningen en foto's) leg ik vast bij de eerste meeting, of eerder telefonisch
+
+**Let op**
+- Week 19 is vol: fase 3 en 4 komen daar allebei uit. Keuze: art parallel vanaf fase 1, of de encoder naar Low
+- Lukt het bellen vóór donderdag, dan staan de afspraken als afgesproken in plaats van als to-do
+
+**Nodig**
+- [ ] Kanri-board bijwerken (zie hieronder) en screenshot maken
+
+**Kanri bijwerken, voorstel:**
+- Naar Done: Mechanism prototype plan, Contact stakeholder mechanism plan (gesprek 1 nov)
+- *Mechanism rough prototype* opsplitsen in: rollezer + stack, vertragen/tempoklep, expressie, vacuüm, luchtmotor + governor, pedalen + terugspoelen
+- Nieuw: obstruction shader, zelf inspelen, encoder, ambiance, mechaniekgeluid, build groot scherm, documentatie endterm, afspraken AI en museummateriaal (Misc)
+- De 3D-kaarten (kast, rol, pianola) en fog zijn het art-blok uit de tabel
+
+**Open**
+- [ ] Endterm-datum checken. Aangenomen: week 20 (11–17 jan), als spiegel van de midterm in week 10
+- [ ] Kerstvakantie checken. Aangenomen: week 17–18
+- [ ] Meetingdata met de stakeholder afstemmen (bellen)
 
 ### 12. Afsluiting
 **Criteria:** Or1
 
-Laatste zin is de overgang naar het speelmoment. De vraag aan de commissie kan daarop inspelen, bijvoorbeeld iets om op te letten tijdens het spelen.
+**Op de slide:** één zin, bijvoorbeeld *"En nu: tijd om te spelen."* Op de achtergrond een still uit het spel
 
-## Bijlage
-- De drie versies van de ontwerpvraag, volledig (pitch, v1, v2)
-- Het mechaniekplan ([[Mechaniek Concreet]])
-- Het geparafeerde formulier
-- Het implementatieplan
-- De idee-dump
-- Het moodboard
-- De Kanri-export
-- Urenverantwoording
-- AI-bijlage (export van de Claude-gesprekken)
+**Wat ik zeg:** de overgang naar het speelmoment. Verder niets

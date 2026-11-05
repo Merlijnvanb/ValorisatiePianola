@@ -32,12 +32,12 @@ Indeling van de midterm (do 5 november), met per blok welke criteria het raakt. 
 |---|---|---|---|---|
 | 0 | **Speelmoment** (vóór de presentatie) | 5 | Het spel speelt als ambiance, je kijkt in de kast met de obstruction shader, je speelt zelf in, en de rol met gaatjes gaat de kast in en speelt terug | O5, O6, O4 |
 | 1 | **Opening** | 1 | Het spel speelt nog op de achtergrond. De pitchzin | O4, P1 |
-| 2 | **Context en vraag** | 1,5 | Het museum, het probleem dat de magie in de kast verstopt zit, de stakeholder als inhoudsdeskundige. Ontwerpvraag v1 naast v2, met de bron per gewijzigd woord | O1, Or2 |
+| 2 | **Context en vraag** | 1,5 | Het museum, het probleem dat de magie in de kast verstopt zit, de stakeholder als inhoudsdeskundige. Ontwerpvraag v3, de versies via het document | O1, Or2 |
 | 3 | **Visie: authenticiteit** | 2 | Werking en sfeer. Museumfoto's en Onkel Philipp naast het moodboard. Drie sfeerwoorden en hun vertaling. De doelgroep | O2, O4 |
 | 4 | **De user experience doorlopen** | 3 | Aanzetten, in de kast kijken, inspelen, je rol speelt terug. Vertragen en het binnenwerk als vervolg | O6, O4 |
 | 5 | **Ontwerpkeuzes** | 3,5 | De keuzetabel (keuze, hoe ontstaan, waarom, niet gekozen). Voorstel → feedback van de stakeholder → Welte-plan. Ethiek | O3, O1, Or2, O2 |
 | 6 | **Techniek** | 2 | Wat er staat (sampler, sequencer). Het architectuurschema. Waarom deze opzet. Eén uitdaging en de oplossing | T1, T2, T3 |
-| 7 | **Peilen en realisatie** | 1,5 | Testplan: per begrip uit de ontwerpvraag een meting (inzicht, authentiek in werking, authentiek in sfeer). Fases en mijlpalen, de tijdlijn tot de endterm, rechten (SUPRA is non-commercieel) | T4, Or1, O3 |
+| 7 | **Peilen en realisatie** | 1,5 | Testplan: per begrip uit de ontwerpvraag een meting (authentiek in werking: checklist en kaartjes; authentiek in sfeer). Fases en mijlpalen, de tijdlijn tot de endterm, rechten (SUPRA is non-commercieel) | T4, Or1, O3 |
 | 8 | **Samenwerking en afspraken** | (in 2 en 5) | Tijdlijn van contactmomenten, het geparafeerde formulier, de AI-afspraak, materiaal van het museum | Or2, P2, P3 |
 | 9 | **Afsluiting** | 0,5 | Eerlijk over de achterstand. Eén vraag aan de commissie | Or1 |
 | — | **Bijlage** (vragenronde) | — | Formulier, implementatieplan, idee-dump, moodboard, Kanri-export, urenverantwoording | Or3, alles |

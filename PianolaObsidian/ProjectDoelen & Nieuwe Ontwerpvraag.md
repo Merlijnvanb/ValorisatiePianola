@@ -1,11 +1,17 @@
 Ontwerpvraag v1: Hoe kan ik een digitale pianola-installatie maken die de gebruiker inzicht geeft in haar interne werking, zonder tekstblokken te gebruiken?
 
-Ontwerpvraag v2 (3 november 2026): **Hoe kan ik met een digitale pianola-installatie bezoekers inzicht geven in de pneumatische werking van een reproductiepiano, op een manier die zowel in werking als in sfeer als authentiek wordt ervaren?**
+Ontwerpvraag v2 (3 november 2026): Hoe kan ik met een digitale pianola-installatie bezoekers inzicht geven in de pneumatische werking van een reproductiepiano, op een manier die zowel in werking als in sfeer als authentiek wordt ervaren?
+
+Ontwerpvraag v3 (5 november 2026): **Hoe kan ik met een digitale pianola-installatie bezoekers een reproductiepiano authentiek laten ervaren, zowel in werking als in sfeer?**
 
 Deelvragen:
-1. Welke onderdelen van de pneumatiek zijn essentieel om te laten zien? (stakeholder, Welte-bronnen, archieftekeningen)
+1. Welke onderdelen van de werking zijn essentieel om te laten zien? (stakeholder: vooral de pneumatiek, Welte-bronnen, archieftekeningen)
 2. Welke vorm van interactie maakt de werking het best navolgbaar? (experimenten, tempoklep en tijd vertragen, een toon volgen)
 3. Wanneer ervaren liefhebbers en bezoekers het als authentiek? (museumfoto's, Onkel Philipp, tests)
+
+Wanneer is de vraag behaald:
+- **Authentiek in werking:** [nog in te vullen]
+- **Authentiek in sfeer:** [nog in te vullen]
 
 Van v1 naar v2:
 
@@ -15,6 +21,13 @@ Van v1 naar v2:
 | — | authentiek in werking en in sfeer | Tim, museumfoto's, Onkel Philipp |
 | de gebruiker | bezoekers | Doelgroep: liefhebbers en museumbezoekers |
 | zonder tekstblokken | (naar de ontwerpkeuzes) | Doel en middel gescheiden: "zonder tekst" is nu een ontwerpkeuze, onderbouwd met authenticiteit (zie [[Midterm Voorbereiding]]) |
+
+Van v2 naar v3:
+
+| Versie 2 | Versie 3 | Waarom |
+|---|---|---|
+| inzicht geven in de pneumatische werking van een reproductiepiano | een reproductiepiano authentiek laten ervaren | Authenticiteit is de kern. Het gaat om de werking van het hele apparaat, niet alleen de pneumatiek. Het belang van het museum zit in *authentiek in werking*: zij vinden de pneumatiek het belangrijkst. De pneumatiek komt terug in de technische uitleg |
+| op een manier die zowel in werking als in sfeer als authentiek wordt ervaren | zowel in werking als in sfeer | Korter, zelfde twee begrippen |
 
 
 **Project Valorisatie:**

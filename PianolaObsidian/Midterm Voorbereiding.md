@@ -3,15 +3,15 @@ Bronnen: [[Midterm notes tim meeting]], [[Mechaniek Concreet]], Gesprek Pianola 
 
 ## Ontwerpvraag
 
-v2: **Hoe kan ik met een digitale pianola-installatie bezoekers inzicht geven in de pneumatische werking van een reproductiepiano, op een manier die zowel in werking als in sfeer als authentiek wordt ervaren?**
-De deelvragen en de verantwoording van v1 naar v2 staan in [[ProjectDoelen & Nieuwe Ontwerpvraag]]. In de presentatie zet ik v1 en v2 naast elkaar, met de gewijzigde woorden in kleur en hun bron erbij
+v3 (5 nov): **Hoe kan ik met een digitale pianola-installatie bezoekers een reproductiepiano authentiek laten ervaren, zowel in werking als in sfeer?**
+De deelvragen en de verantwoording van v1 naar v2 en van v2 naar v3 staan in [[ProjectDoelen & Nieuwe Ontwerpvraag]]. In de presentatie staat alleen v3, met de kernwoorden in kleur. De versies laat ik zien via het document. Bij het testplan staat een slide met mijn definitie van wanneer de vraag behaald is, vlak voor de metingen per begrip
 
 Meetbaar maken, per begrip:
 
 | Begrip | Wat meet je | Hoe |
 |---|---|---|
-| Inzicht in de pneumatiek | Kan een tester na het spelen de keten reconstrueren? | Kaartjes met plaatjes (pomp, rol, ventiel, balgje, hamer…) in de goede volgorde laten leggen, of "leg uit aan iemand die het niet kent" |
-| Authentiek in werking | Klopt het volgens experts? | De stakeholder en 2 à 3 liefhebbers lopen per onderdeel een checklist door: klopt, vereenvoudigd maar goed, of fout. Plus technische validatie tegen SUPRA en PlaySK |
+| Authentiek in werking: kan de bezoeker het volgen? | Kan een tester na het spelen de keten reconstrueren? | Kaartjes met plaatjes (pomp, rol, ventiel, balgje, hamer…) in de goede volgorde laten leggen, of "leg uit aan iemand die het niet kent" |
+| Authentiek in werking: klopt het? | Klopt het volgens experts? | De stakeholder en 2 à 3 liefhebbers lopen per onderdeel een checklist door: klopt, vereenvoudigd maar goed, of fout. Plus technische validatie tegen SUPRA en PlaySK |
 | Authentiek in sfeer | Voelt het als het echte instrument? | Bezoekers scoren zowel de echte pianola-ruimte als het spel op de drie sfeerwoorden (1–5). Hoe kleiner het verschil, hoe authentieker |
 
 ## Rode draad: authenticiteit
@@ -61,7 +61,7 @@ Demo-route: de kast met de obstruction shader en het inspelen. Het binnenwerk ko
 | Min | Blok | Inhoud |
 |---|---|---|
 | 1 | Opening | Het spel speelt al als ambiance. Dan de pitchzin: "Op normale snelheid hoor je muziek. Vertraag je de tijd, dan zie je een machine." |
-| 1,5 | Context en vraag | Het museum, het probleem dat de magie in de kast verstopt zit, de stakeholder als inhoudsdeskundige. Ontwerpvraag v1 naast v2, met de bron per gewijzigd woord |
+| 1,5 | Context en vraag | Het museum, het probleem dat de magie in de kast verstopt zit, de stakeholder als inhoudsdeskundige. Ontwerpvraag v3, de versies via het document |
 | 2 | Visie: authenticiteit | Museumfoto's en Onkel Philipp naast het moodboard, drie sfeerwoorden en hun vertaling |
 | 3 | De user experience doorlopen | Aanzetten, hij speelt vanzelf, in de kast kijken, zelf inspelen, je rol verschijnt, je hoort je spel terug. Vertragen en het binnenwerk als vervolg, met een schema of schets |
 | 3,5 | Ontwerpkeuzes | 4 à 5 keuzes uit de tabel, plus de iteratie met de stakeholder: voorstel → feedback → Welte-plan |
@@ -102,7 +102,7 @@ Praktisch:
 ### Ontwerpend
 | Criterium | | Bewijs | Nog doen |
 |---|---|---|---|
-| Ontwerpvraag uit een gesprek met de stakeholder | ✅ | Het eerste gesprek, plus de bijsturing op 1 november | Ontwerpvraag v1 en eventueel v2 laten zien |
+| Ontwerpvraag uit een gesprek met de stakeholder | ✅ | Het eerste gesprek, plus de bijsturing op 1 november | Ontwerpvraag v3 laten zien, de versies via het document |
 | Vooronderzoek: inhoud, context, repertoire, doelgroep, experimenten | ⚠️ | Inhoud sterk, context museum en foyer, repertoire Onkel Philipp, experimenten audio en camera. Doelgroep is dun | Per type één dia met een conclusie. Kennis uit eerdere jaren noemen |
 | Ontwerpbeslissingen, inclusief ethiek | ✅ / ⚠️ | De keuzetabel | Ethiek: SUPRA is non-commercieel, testbestanden met (c), historische juistheid tegenover vereenvoudiging, materiaal van het museum |
 | Consistent en origineel concept, waar de stakeholder belang bij heeft | ✅ | Pitchzin en authenticiteit. Stakeholder enthousiast en zoekt tekeningen in het archief | Zijn reactie citeren, foto van het formulier |
@@ -137,7 +137,7 @@ Praktisch:
 
 ## Open vragen
 
-- SMART-doel: heb ik er een? Het protocol noemt het bij de ontwerpvraag, en het testplan hangt eraan
+- SMART-doel: heb ik er een? Het protocol noemt het bij de ontwerpvraag, en het testplan hangt eraan. Komt op de slide "Wanneer is het gelukt?", definitie nog in te vullen
 - Welke kennis uit eerdere jaren gebruik ik (playtestmethode, ontwerpmodel, onderzoeksmethode)?
 - Hoe heb ik AI tot nu toe gebruikt, behalve de Claude-gesprekken?
 - Endterm-datum en kerstvakantie, voor de planning

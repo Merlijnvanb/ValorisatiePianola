@@ -16,8 +16,10 @@ Stand van zaken op 2 november 2026. Bedoeld om een volgende werksessie (of een v
   - **do 5 nov 2026:** midterm. Die is formatief en wordt gescoord met een stoplicht.
   - Uploaddeadline voor de presentatie en de urenverantwoording: deze week, exacte datum nog checken.
   - Endterm-datum en kerstvakantie: nog onbekend.
-- **Ontwerpvraag v2 (3 nov):** "Hoe kan ik met een digitale pianola-installatie bezoekers inzicht geven in de pneumatische werking van een reproductiepiano, op een manier die zowel in werking als in sfeer als authentiek wordt ervaren?"
-  - Deelvragen en de verantwoording van v1 naar v2 staan in `PianolaObsidian/ProjectDoelen & Nieuwe Ontwerpvraag.md`.
+- **Ontwerpvraag v3 (5 nov):** "Hoe kan ik met een digitale pianola-installatie bezoekers een reproductiepiano authentiek laten ervaren, zowel in werking als in sfeer?"
+  - Ingekort tot authenticiteit: het gaat om de werking van het hele apparaat; de pneumatiek zit in "authentiek in werking" en komt terug in de technische uitleg.
+  - Definitie van wanneer de vraag behaald is: nog open.
+  - Deelvragen en de verantwoording van v1 naar v2 en v3 staan in `PianolaObsidian/ProjectDoelen & Nieuwe Ontwerpvraag.md`.
   - "Zonder tekst" stond in v1 en is nu een ontwerpkeuze.
 - **Doelgroep:** liefhebbers, en museumbezoekers, bijvoorbeeld op een groot scherm in de foyer.
 
