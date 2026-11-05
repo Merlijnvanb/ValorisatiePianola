@@ -1,0 +1,571 @@
+{
+  "background": null,
+  "columns": [
+    {
+      "cards": [
+        {
+          "id": "cva4it0xc43pgi72texn9qbr",
+          "name": "Pianola 3D art concept",
+          "tags": [
+            {
+              "color": "#ec834b",
+              "id": "sw4anmen8wzh27m2spjw2aka",
+              "style": "background-color: #ec834b; color: #1e293b",
+              "text": "Des"
+            },
+            {
+              "color": "#f368fd",
+              "id": "deki3j5qpflqj944j4a1jxwt",
+              "style": "background-color: #f368fd; color: #1e293b",
+              "text": "Art"
+            }
+          ]
+        },
+        {
+          "id": "sytjt223u1puka32crvotjaz",
+          "name": "Pianola 3D model",
+          "tags": [
+            {
+              "color": "#f368fd",
+              "id": "deki3j5qpflqj944j4a1jxwt",
+              "style": "background-color: #f368fd; color: #1e293b",
+              "text": "Art"
+            }
+          ]
+        },
+        {
+          "id": "x66lqicb2y2nub9gd9p3nhl0",
+          "name": "Custom fog implementation",
+          "tags": [
+            {
+              "color": "#f368fd",
+              "id": "deki3j5qpflqj944j4a1jxwt",
+              "style": "background-color: #f368fd; color: #1e293b",
+              "text": "Art"
+            },
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev"
+            }
+          ]
+        },
+        {
+          "id": "aivgqo0oy677clvyc9wirk78",
+          "name": "Closet 3d art concept",
+          "tags": [
+            {
+              "color": "#ec834b",
+              "id": "sw4anmen8wzh27m2spjw2aka",
+              "style": "background-color: #ec834b; color: #1e293b",
+              "text": "Des"
+            },
+            {
+              "color": "#f368fd",
+              "id": "deki3j5qpflqj944j4a1jxwt",
+              "style": "background-color: #f368fd; color: #1e293b",
+              "text": "Art"
+            }
+          ]
+        },
+        {
+          "id": "s3kj9xxrq5eyoq1ohc651lxj",
+          "name": "Closet 3d model",
+          "tags": [
+            {
+              "color": "#f368fd",
+              "id": "deki3j5qpflqj944j4a1jxwt",
+              "style": "background-color: #f368fd; color: #1e293b",
+              "text": "Art"
+            }
+          ]
+        },
+        {
+          "id": "s5pygd5ffxhztqy83uvapwxk",
+          "name": "Roll 3d art concept",
+          "tags": [
+            {
+              "color": "#ec834b",
+              "id": "sw4anmen8wzh27m2spjw2aka",
+              "style": "background-color: #ec834b; color: #1e293b",
+              "text": "Des"
+            },
+            {
+              "color": "#f368fd",
+              "id": "deki3j5qpflqj944j4a1jxwt",
+              "style": "background-color: #f368fd; color: #1e293b",
+              "text": "Art"
+            }
+          ]
+        },
+        {
+          "id": "ludckhi0ahz24ft31wyyazmq",
+          "name": "Roll 3d model",
+          "tags": [
+            {
+              "color": "#f368fd",
+              "id": "deki3j5qpflqj944j4a1jxwt",
+              "style": "background-color: #f368fd; color: #1e293b",
+              "text": "Art"
+            }
+          ]
+        },
+        {
+          "id": "zx5cek7yj0u1582c196audz8",
+          "name": "Roll variation and polish",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev"
+            },
+            {
+              "color": "#f368fd",
+              "id": "deki3j5qpflqj944j4a1jxwt",
+              "style": "background-color: #f368fd; color: #1e293b",
+              "text": "Art"
+            }
+          ]
+        }
+      ],
+      "id": "m7ynbjxvnrtzipo2uc3w635p",
+      "title": "Todo (Low)"
+    },
+    {
+      "cards": [
+        {
+          "id": "t2vte01m9474r2gwpaczs2v3",
+          "name": "Positional layout for pneumatics",
+          "tags": [
+            {
+              "color": "#ec834b",
+              "id": "sw4anmen8wzh27m2spjw2aka",
+              "style": "background-color: #ec834b; color: #1e293b",
+              "text": "Des",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "h0jkvkbqo7hlwhjmffuhocvi",
+          "name": "Air pressure visualization",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ccjvgjdr18asukkvlda1vc8s",
+          "name": "Air motor component",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ddargovvcsaterqi6j735gor",
+          "name": "Governor component",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "flxl5rkdvrntg31gqyvz13kp",
+          "name": "Pedals",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shx1iaxep4ebzji026vpclqb",
+          "name": "Rewind",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "lwcisj9fpcrkqpyp42rrl60a",
+      "title": "Todo (Medium)"
+    },
+    {
+      "cards": [
+        {
+          "id": "eleljry03zh9w7lx6alvo5oq",
+          "name": "Roll data format",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ysm6nm5ne9p4r8o9842azq19",
+          "name": "Roll data reader + midi sequencer bridge",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ozmg8ao4oxx2tjcdtn0erx0d",
+          "name": "Visual representation of the piano keys",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "e6ky2nndejtc9ej3fwft8fbx",
+      "title": "Todo (High)"
+    },
+    {
+      "cards": [
+        {
+          "id": "h3x8ko26af7bjnlmpjgnzaup",
+          "name": "Midterm slides",
+          "tags": [
+            {
+              "color": "#3ae445",
+              "id": "qcqachp1cpoguawi45nvrxs5",
+              "style": "background-color: #3ae445; color: #1e293b",
+              "text": "Misc",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "uoikp9qc6vuxcachfejwh5zh",
+      "title": "Doing"
+    },
+    {
+      "cards": [
+        {
+          "id": "xkbtaa4cc9t9wjooz6tonydp",
+          "name": "Placeholder Lighting",
+          "tags": [
+            {
+              "color": "#f368fd",
+              "id": "deki3j5qpflqj944j4a1jxwt",
+              "style": "background-color: #f368fd; color: #1e293b",
+              "text": "Art"
+            }
+          ]
+        },
+        {
+          "id": "cn3zvcvug1ux0v0s87ur9s5d",
+          "name": "Prototype closet system",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev"
+            },
+            {
+              "color": "#ec834b",
+              "id": "sw4anmen8wzh27m2spjw2aka",
+              "style": "background-color: #ec834b; color: #1e293b",
+              "text": "Des"
+            }
+          ]
+        },
+        {
+          "id": "yag6s91we4taz528fqyi4xzy",
+          "name": "Piano audio solution",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev"
+            }
+          ]
+        },
+        {
+          "id": "spqguue27ygle1p0agrr0ymy",
+          "name": "Camera system first iteration",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev"
+            }
+          ]
+        },
+        {
+          "id": "z8qayvzpegm1snkm6gm4t2gm",
+          "name": "Pinterest/mood board",
+          "tags": [
+            {
+              "color": "#f368fd",
+              "id": "deki3j5qpflqj944j4a1jxwt",
+              "style": "background-color: #f368fd; color: #1e293b",
+              "text": "Art"
+            }
+          ]
+        },
+        {
+          "id": "tkdo3532jwxavgafkc7tviwr",
+          "name": "Roll format placeholder",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev"
+            }
+          ]
+        },
+        {
+          "id": "gyxf5gmf16qpmgkkz93g9n15",
+          "name": "Mechanism prototype plan",
+          "tags": [
+            {
+              "color": "#ec834b",
+              "id": "sw4anmen8wzh27m2spjw2aka",
+              "style": "background-color: #ec834b; color: #1e293b",
+              "text": "Des"
+            }
+          ]
+        },
+        {
+          "id": "t2ykir82cfl7lyys1jpvr627",
+          "name": "Pick and play roll placeholder logic",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev"
+            }
+          ]
+        },
+        {
+          "id": "q5buykifi9942j0tl49d2mi6",
+          "name": "Contact stakeholder mechanism plan",
+          "tags": [
+            {
+              "color": "#3ae445",
+              "id": "qcqachp1cpoguawi45nvrxs5",
+              "style": "background-color: #3ae445; color: #1e293b",
+              "text": "Misc"
+            }
+          ]
+        },
+        {
+          "id": "k4cwz4nm0qlug4so25o82q6r",
+          "name": "Midterm planning",
+          "tags": [
+            {
+              "color": "#3ae445",
+              "id": "qcqachp1cpoguawi45nvrxs5",
+              "style": "background-color: #3ae445; color: #1e293b",
+              "text": "Misc",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "h2u0crosdl2ejzys2yexp6hk",
+          "name": "Audio generation research",
+          "tags": [
+            {
+              "color": "#ec834b",
+              "id": "sw4anmen8wzh27m2spjw2aka",
+              "style": "background-color: #ec834b; color: #1e293b",
+              "text": "Des",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            },
+            {
+              "color": "#3ae445",
+              "id": "qcqachp1cpoguawi45nvrxs5",
+              "style": "background-color: #3ae445; color: #1e293b",
+              "text": "Misc",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "inkjwaqvj7ar7ynrovoxp0ze",
+          "name": "Sfizz library implementation",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ytjn0fg98vv9w5tny5h808tn",
+          "name": "Sfizz player",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "y57hf91dsouruwjlbn18fwld",
+          "name": "Midi sequencer",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "e343lywdk1pgz0y1oi5a7qgi",
+          "name": "Placeholder keyboard player",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev",
+              "tiClasses": [
+                "ti-valid"
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "ytiedjyddgovyud3l9w5hz3h",
+      "title": "Done"
+    },
+    {
+      "cards": [
+        {
+          "id": "hghacafingbxgubr63mtkh57",
+          "name": "Mechanism rough prototype",
+          "tags": [
+            {
+              "color": "#5368d0",
+              "id": "gjh4wijp085krl4kihqujukp",
+              "style": "background-color: #5368d0; color: #f4f4f5",
+              "text": "Dev"
+            }
+          ]
+        }
+      ],
+      "id": "ayv2lgezsyj8oike78skgdc8",
+      "title": "Archive"
+    }
+  ],
+  "globalTags": [
+    {
+      "color": "#5368d0",
+      "id": "gjh4wijp085krl4kihqujukp",
+      "style": "background-color: #5368d0; color: #f4f4f5",
+      "text": "Dev"
+    },
+    {
+      "color": "#ec834b",
+      "id": "sw4anmen8wzh27m2spjw2aka",
+      "style": "background-color: #ec834b; color: #1e293b",
+      "text": "Des"
+    },
+    {
+      "color": "#f368fd",
+      "id": "deki3j5qpflqj944j4a1jxwt",
+      "style": "background-color: #f368fd; color: #1e293b",
+      "text": "Art"
+    },
+    {
+      "color": "#3ae445",
+      "id": "qcqachp1cpoguawi45nvrxs5",
+      "style": "background-color: #3ae445; color: #1e293b",
+      "text": "Misc"
+    }
+  ],
+  "id": "a95k4u503d4qqxfze8ykd9qt",
+  "lastEdited": "2026-11-05T11:19:14.748Z",
+  "title": "ValorisatiePianola"
+}
