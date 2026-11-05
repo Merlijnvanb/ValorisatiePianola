@@ -1,4 +1,7 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using Unity.Mathematics;
 
 public class RollsManager : MonoBehaviour
@@ -36,6 +39,25 @@ public class RollsManager : MonoBehaviour
 
     private int rollsAmount;
 
+    // For UI (RollsIndicators): where the closet can be navigated right now.
+    public bool IsActive => isActive;
+    public bool CanMoveUp => isActive && CanMove(Up);
+    public bool CanMoveDown => isActive && CanMove(Down);
+    public bool CanScrollLeft => isActive && CanMove(Left);
+    public bool CanScrollRight => isActive && CanMove(Right);
+    // Along the closet towards the next column, i.e. scrolling "right" (scroll wheel up).
+    public Vector3 ScrollAxis => transform.right;
+    public Vector3 ClosetUp => transform.up;
+    public Vector3 ClosetNormal => transform.forward;
+
+    public bool TryGetSelectedRoll(out Vector3 position)
+    {
+        var roll = isActive ? rolls[pointer.x, pointer.y] : null;
+        position = roll ? roll.transform.position : default;
+        return roll;
+    }
+    public event Action<int2> OnPointerMoved;
+
     void OnEnable()
     {
         CameraController.OnPointChanged += HandlePointChanged;
@@ -53,26 +75,36 @@ public class RollsManager : MonoBehaviour
         spacingHeight = Height / Columns;
         
         rolls = new Roll[Rows, Columns];
-        rollsAmount = StartRolls.Length;
-        
-        var count = 0;
-        for (int i = 0; i < Rows; i++)
+
+        // Recordings made earlier (see RollRecorder) go after the start rolls.
+        var allRolls = new List<RollData>(StartRolls);
+        allRolls.AddRange(RecordedRolls.LoadAll());
+        foreach (var data in allRolls)
         {
-            for (int j = 0; j < Columns; j++)
-            {
-                if (count >= StartRolls.Length)
-                    break;
-                
-                var instance = Instantiate(RollPrefab, transform);
-                var rollComponent = instance.GetComponent<Roll>();
-                rolls[i, j] = rollComponent;
-                rollComponent.Initialize(StartRolls[count]);
-                instance.transform.localPosition = new Vector3((i + 0.5f) * spacingWidth - Width / 2f, (j + 0.5f) * spacingHeight - Height / 2f, 0);
-                instance.transform.localEulerAngles = new Vector3(0, 90, 0);
-                
-                count++;
-            }
+            if (!AddRoll(data))
+                break;
         }
+    }
+
+    // Puts a roll in the next free slot of the closet. Returns false when the closet is full.
+    public bool AddRoll(RollData data)
+    {
+        if (rollsAmount >= Rows * Columns)
+            return false;
+
+        // Fills a column bottom to top, then moves to the next column.
+        int i = rollsAmount / Columns;
+        int j = rollsAmount % Columns;
+
+        var instance = Instantiate(RollPrefab, transform);
+        var rollComponent = instance.GetComponent<Roll>();
+        rolls[i, j] = rollComponent;
+        rollComponent.Initialize(data);
+        instance.transform.localPosition = new Vector3((i + 0.5f) * spacingWidth - Width / 2f, (j + 0.5f) * spacingHeight - Height / 2f, 0);
+        instance.transform.localEulerAngles = new Vector3(0, 90, 0);
+
+        rollsAmount++;
+        return true;
     }
 
     void Update()
@@ -80,7 +112,8 @@ public class RollsManager : MonoBehaviour
         if (!isActive)
             return;
         
-        if (Input.GetMouseButtonDown(0))
+        // Clicks on UI buttons (Opnemen etc.) should not also pick a roll.
+        if (Input.GetMouseButtonDown(0) && !IsPointerOverUI())
         {
             PickRoll();
             return;
@@ -134,6 +167,8 @@ public class RollsManager : MonoBehaviour
         Debug.Log(pointer);
     }
 
+    private static bool IsPointerOverUI() => EventSystem.current != null && EventSystem.current.IsPointerOverGameObject();
+
     private void PickRoll()
     {
         if (!CameraController.ChangePoint(PianolaPoint))
@@ -181,6 +216,7 @@ public class RollsManager : MonoBehaviour
         rolls[pointer.x,pointer.y].Disable();
         pointer += diff;
         rolls[pointer.x,pointer.y].Enable();
+        OnPointerMoved?.Invoke(diff);
     }
 
     private bool TryPanTo(Vector3 vector)

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Arabesque
   m_EditorClassIdentifier: Assembly-CSharp::RollData
   MidiPath: Midi/arabesque_1_(c)oguri.mid
-  PieceTitle: 
-  ComposerName: 
+  PieceTitle: Arabesque No. 1
+  ComposerName: Debussy, Claude
   PerformerName: 

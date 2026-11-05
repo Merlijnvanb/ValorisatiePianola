@@ -9,7 +9,6 @@ using Debug = UnityEngine.Debug;
 
 // Renders sfizz live on Unity's audio thread. Events are queued from the main thread and
 // placed sample-accurately inside the audio block they fall in.
-// Put this on a GameObject with an AudioSource that has no clip, and keep it the first filter.
 [RequireComponent(typeof(AudioSource))]
 public class SfizzLivePlayer : MonoBehaviour
 {

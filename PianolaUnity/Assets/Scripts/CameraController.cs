@@ -12,6 +12,8 @@ public class CameraController : MonoBehaviour
 
     public event Action<CameraPoint> OnPointChanged;
 
+    public CameraPoint CurrentPoint => currentPoint;
+
     private CameraPoint currentPoint;
     private Sequence currentTweens;
     private Camera mainCam { get => GetCamera(); }
